@@ -30,11 +30,13 @@ public class FTDChallenge : Challenge
         foreach(var difference in _leftSideDifferences)
         {
             difference.OnChecked.AddListener(OnDifferenceFound);
+            difference.OnCheckedFinished.AddListener(IncreaseProgress);
         }
 
         foreach(var difference in _rightSideDifferences)
         {
             difference.OnChecked.AddListener(OnDifferenceFound);
+            difference.OnCheckedFinished.AddListener(IncreaseProgress);
         }
     }
 
@@ -42,8 +44,6 @@ public class FTDChallenge : Challenge
     {
         _leftSideDifferences[index].Activate();
         _rightSideDifferences[index].Activate();
-
-        IncreaseProgress();
     }
 
     public void IncreaseProgress()

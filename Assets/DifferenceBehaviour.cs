@@ -16,6 +16,7 @@ public class DifferenceBehaviour : MonoBehaviour, IPointerClickHandler
     bool isActivated;
 
     public DifferenceCheckedEvent OnChecked = new DifferenceCheckedEvent();
+    public UnityEvent OnCheckedFinished = new UnityEvent();
 
     private void Start()
     {
@@ -36,16 +37,21 @@ public class DifferenceBehaviour : MonoBehaviour, IPointerClickHandler
 
         OnChecked.Invoke(index);
 
-        StartCoroutine(FillImage());
+        StartCoroutine(FillImage(true));
     }
 
-    IEnumerator FillImage()
+    IEnumerator FillImage(bool invokeOnCheckedEvent)
     {
         while(image.fillAmount < 1)
         {
             image.fillAmount += Time.deltaTime * fillSpeed;
             image.fillAmount = Mathf.Clamp01(image.fillAmount);
             yield return new WaitForEndOfFrame();
+        }
+
+        if (invokeOnCheckedEvent)
+        {
+            OnCheckedFinished.Invoke();
         }
     }
 
@@ -58,7 +64,7 @@ public class DifferenceBehaviour : MonoBehaviour, IPointerClickHandler
 
         isActivated = true;
 
-        StartCoroutine(FillImage());
+        StartCoroutine(FillImage(false));
     }
 }
 
