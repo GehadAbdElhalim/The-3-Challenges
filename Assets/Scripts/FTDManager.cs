@@ -17,6 +17,7 @@ public class FTDManager : MonoBehaviour
     public ChallengeType ChallengeType;
     public GameObject challengeContainer;
     public bool randomizeOrderOfChallenges;
+
     int progress = 0;
 
     List<Challenge> _challenges = new List<Challenge>();
@@ -76,6 +77,24 @@ public class FTDManager : MonoBehaviour
             DisableAllChallenges();
             EnableChallenge(progress);
         }
+    }
+
+    Challenge GetCurrentChallenge()
+    {
+        foreach(Challenge c in _challenges)
+        {
+            if (c.gameObject.activeSelf)
+            {
+                return c;
+            }
+        }
+
+        return null;
+    }
+
+    public void RestartCurrentChallenge()
+    {
+        GetCurrentChallenge().ResetProgress();
     }
 }
 

@@ -66,6 +66,12 @@ public class DifferenceBehaviour : MonoBehaviour, IPointerClickHandler
 
         StartCoroutine(FillImage(false));
     }
+
+    public void DeActivate()
+    {
+        isActivated = false;
+        image.fillAmount = 0;
+    }
 }
 
 public class DifferenceCheckedEvent : UnityEvent<int>

@@ -5,7 +5,11 @@ using UnityEngine.Events;
 
 public class FTDChallenge : Challenge
 {
-    public int progress;
+    private int progress;
+
+    [Header("Duration of the challenge")]
+    public int minutes;
+    public int seconds;
 
     List<DifferenceBehaviour> _leftSideDifferences = new List<DifferenceBehaviour>();
     List<DifferenceBehaviour> _rightSideDifferences = new List<DifferenceBehaviour>();
@@ -40,6 +44,11 @@ public class FTDChallenge : Challenge
         }
     }
 
+    private void OnEnable()
+    {
+        TimerController.Instance.StartTimer(seconds, minutes, null, null);
+    }
+
     void OnDifferenceFound(int index)
     {
         _leftSideDifferences[index].Activate();
@@ -54,5 +63,22 @@ public class FTDChallenge : Challenge
         {
             OnChallengeFinished.Invoke();
         }
+    }
+
+    public override void ResetProgress()
+    {
+        progress = 0;
+
+        foreach (var difference in _leftSideDifferences)
+        {
+            difference.DeActivate();
+        }
+
+        foreach (var difference in _rightSideDifferences)
+        {
+            difference.DeActivate();
+        }
+
+        TimerController.Instance.StartTimer(seconds, minutes, null, null);
     }
 }
