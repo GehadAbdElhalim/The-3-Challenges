@@ -15,6 +15,11 @@ public class FHIChallenge : Challenge
     public int minutes;
     public int seconds;
 
+    [Header("Flashing settings")]
+    public float duration;
+    public float frequency;
+    public Color flashColor;
+
     ItemBehaviour currentItem;
     string currentText;
 
@@ -40,7 +45,7 @@ public class FHIChallenge : Challenge
     {
         if(item.GetInstanceID() == currentItem.GetInstanceID())
         {
-            OnChallengeFinished.Invoke();
+            StartCoroutine(item.Flash(duration, frequency, flashColor, () => OnChallengeFinished.Invoke()));
         }
     }
 
@@ -55,6 +60,7 @@ public class FHIChallenge : Challenge
     }
 }
 
+[System.Serializable]
 public class OnItemChosenEvent : UnityEvent<string>
 {
 

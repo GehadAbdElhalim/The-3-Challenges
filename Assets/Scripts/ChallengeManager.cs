@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class FTDManager : MonoBehaviour
+public class ChallengeManager : MonoBehaviour
 {
     #region singleton
-    public static FTDManager Instance;
+    public static ChallengeManager Instance;
 
     private void Awake()
     {

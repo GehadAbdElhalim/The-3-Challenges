@@ -22,10 +22,10 @@ public class ItemBehaviour : MonoBehaviour, IPointerClickHandler
 
         alreadyClicked = true;
 
-        StartCoroutine(Flash(2, 5, Color.green));
+        onItemClicked.Invoke(this);
     }
 
-    IEnumerator Flash(float duration, float frequency, Color color)
+    public IEnumerator Flash(float duration, float frequency, Color color, UnityAction callback)
     {
         float totalDuration = duration;
 
@@ -38,7 +38,7 @@ public class ItemBehaviour : MonoBehaviour, IPointerClickHandler
             duration -= 2 * totalDuration / frequency;
         }
 
-        onItemClicked.Invoke(this);
+        callback();
     }
 
     void Start()
