@@ -14,6 +14,8 @@ public class ChallengeManager : MonoBehaviour
     }
     #endregion
 
+    public UnityEvent OnLevelCompleted = new UnityEvent();
+
     public GameObject challengeContainer;
 
     int progress = 0;
@@ -57,8 +59,7 @@ public class ChallengeManager : MonoBehaviour
 
         if(progress >= _challenges.Count)
         {
-            //All the challenges are finished
-            print("Done");
+            OnLevelCompleted.Invoke();
         }
         else
         {

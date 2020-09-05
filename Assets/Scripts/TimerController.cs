@@ -27,8 +27,6 @@ public class TimerController : MonoBehaviour
     private bool isTimerOn;
     private int prevSecond;
 
-    public float secondsElapsed = 0;
-
     public string currentTime;
 
     public void StartTimer(float seconds, UnityAction<string> timerValueChanged, UnityAction endTimerCallBack)
@@ -85,21 +83,6 @@ public class TimerController : MonoBehaviour
         isTimerOn = true;
     }
 
-    public void StartCountUpTimer(UnityAction<string> timerValueChanged)
-    {
-        timerSeconds = 0;
-        timerMins = 0;
-        timerHours = 0;
-        secondsElapsed = 0;
-
-        //onTimerValueChanged = new OnTimerValueChanged();
-        onTimerValueChanged.AddListener(timerValueChanged);
-
-        prevSecond = (int)timerSeconds;
-
-        isTimerOn = true;
-    }
-
     void Update()
     {
         if (isTimerOn)
@@ -144,7 +127,6 @@ public class TimerController : MonoBehaviour
         timerSeconds = 0;
         timerMins = 0;
         timerHours = 0;
-        secondsElapsed = 0;
     }
 
     public void PauseTimer()
