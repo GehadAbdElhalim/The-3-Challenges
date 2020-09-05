@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class FTDChallenge : Challenge
 {
+    AudioSource audio;
+
     private int progress;
 
     [Header("Duration of the challenge")]
@@ -14,8 +16,12 @@ public class FTDChallenge : Challenge
     List<DifferenceBehaviour> _leftSideDifferences = new List<DifferenceBehaviour>();
     List<DifferenceBehaviour> _rightSideDifferences = new List<DifferenceBehaviour>();
 
+    public AudioClip correct_sfx;
+
     private void Start()
     {
+        audio = GetComponent<AudioSource>();
+
         progress = 0;
 
         //Get all the differences
@@ -51,6 +57,8 @@ public class FTDChallenge : Challenge
 
     void OnDifferenceFound(int index)
     {
+        audio.PlayOneShot(correct_sfx);
+
         _leftSideDifferences[index].Activate();
         _rightSideDifferences[index].Activate();
     }
@@ -80,5 +88,15 @@ public class FTDChallenge : Challenge
         }
 
         TimerController.Instance.StartTimer(seconds, minutes, null, null);
+    }
+
+    public List<DifferenceBehaviour> GetLeftSideDifferences()
+    {
+        return _leftSideDifferences;
+    }
+
+    public List<DifferenceBehaviour> GetRightSideDifferences()
+    {
+        return _rightSideDifferences;
     }
 }

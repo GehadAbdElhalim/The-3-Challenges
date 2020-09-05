@@ -18,10 +18,15 @@ public class DifferenceBehaviour : MonoBehaviour, IPointerClickHandler
     public DifferenceCheckedEvent OnChecked = new DifferenceCheckedEvent();
     public UnityEvent OnCheckedFinished = new UnityEvent();
 
+    public Color hintColor;
+
+    private Color originalColor;
+
     private void Start()
     {
         image = GetComponent<Image>();
         image.fillAmount = 0;
+        originalColor = image.color;
 
         isActivated = false;
     }
@@ -42,6 +47,8 @@ public class DifferenceBehaviour : MonoBehaviour, IPointerClickHandler
 
     IEnumerator FillImage(bool invokeOnCheckedEvent)
     {
+        RemoveHint();
+
         while(image.fillAmount < 1)
         {
             image.fillAmount += Time.deltaTime * fillSpeed;
@@ -71,6 +78,23 @@ public class DifferenceBehaviour : MonoBehaviour, IPointerClickHandler
     {
         isActivated = false;
         image.fillAmount = 0;
+    }
+
+    public bool IsAlreadyActive()
+    {
+        return isActivated;
+    }
+
+    public void ShowHint()
+    {
+        image.color = hintColor;
+        image.fillAmount = 1;
+    }
+
+    void RemoveHint()
+    {
+        image.fillAmount = 0;
+        image.color = originalColor;
     }
 }
 

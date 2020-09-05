@@ -100,37 +100,42 @@ public class TimerController : MonoBehaviour
         isTimerOn = true;
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (isTimerOn)
         {
-            if (timerSeconds > 0 || timerMins > 0 || timerHours > 0)
-            {
-                timerSeconds -= Time.deltaTime;
+            DecreaseTime(Time.deltaTime);
+        }
+    }
 
-                if (timerSeconds < 0)
+    public void DecreaseTime(float seconds)
+    {
+        if (timerSeconds > 0 || timerMins > 0 || timerHours > 0)
+        {
+            timerSeconds -= seconds;
+
+            if (timerSeconds < 0)
+            {
+                if (timerMins > 0)
                 {
-                    if (timerMins > 0)
-                    {
-                        timerMins--;
-                        timerSeconds = 59f;
-                    }
-                    else if (timerHours > 0)
-                    {
-                        timerHours--;
-                        timerMins = 59f;
-                        timerSeconds = 59f;
-                    }
+                    timerMins--;
+                    timerSeconds = 59f;
                 }
+                else if (timerHours > 0)
+                {
+                    timerHours--;
+                    timerMins = 59f;
+                    timerSeconds = 59f;
+                }
+            }
 
-                string time = ((timerHours > 0) ? timerHours.ToString("00") + ":" : "") + (timerMins.ToString("00") + ":" ) + timerSeconds.ToString("00");
-                onTimerValueChanged.Invoke(time);
-            }
-            else
-            {
-                isTimerOn = false;
-                OnTimerEnd.Invoke();
-            }
+            string time = ((timerHours > 0) ? timerHours.ToString("00") + ":" : "") + (timerMins.ToString("00") + ":") + timerSeconds.ToString("00");
+            onTimerValueChanged.Invoke(time);
+        }
+        else
+        {
+            isTimerOn = false;
+            OnTimerEnd.Invoke();
         }
     }
 
@@ -140,6 +145,16 @@ public class TimerController : MonoBehaviour
         timerMins = 0;
         timerHours = 0;
         secondsElapsed = 0;
+    }
+
+    public void PauseTimer()
+    {
+        isTimerOn = false;
+    }
+
+    public void UnpauseTimer()
+    {
+        isTimerOn = true;
     }
 }
 

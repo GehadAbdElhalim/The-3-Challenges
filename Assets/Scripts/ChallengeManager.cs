@@ -16,7 +16,6 @@ public class ChallengeManager : MonoBehaviour
 
     public ChallengeType ChallengeType;
     public GameObject challengeContainer;
-    public bool randomizeOrderOfChallenges;
 
     int progress = 0;
 
@@ -24,11 +23,6 @@ public class ChallengeManager : MonoBehaviour
 
     private void Start()
     {
-        if (randomizeOrderOfChallenges)
-        {
-            ShuffleChallenges();
-        }
-
         //Get all the challenges
         for(int i = 0; i < challengeContainer.transform.childCount; i++)
         {
@@ -43,11 +37,6 @@ public class ChallengeManager : MonoBehaviour
 
         DisableAllChallenges();
         EnableChallenge(progress);
-    }
-
-    void ShuffleChallenges()
-    {
-
     }
 
     void DisableAllChallenges()
@@ -79,22 +68,14 @@ public class ChallengeManager : MonoBehaviour
         }
     }
 
-    Challenge GetCurrentChallenge()
+    public Challenge GetCurrentChallenge()
     {
-        foreach(Challenge c in _challenges)
-        {
-            if (c.gameObject.activeSelf)
-            {
-                return c;
-            }
-        }
-
-        return null;
+        return progress < _challenges.Count ? _challenges[progress] : null;
     }
 
     public void RestartCurrentChallenge()
     {
-        GetCurrentChallenge().ResetProgress();
+        GetCurrentChallenge()?.ResetProgress();
     }
 }
 
