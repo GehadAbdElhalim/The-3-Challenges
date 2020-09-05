@@ -6,6 +6,8 @@ using UnityEngine.Events;
 
 public class FHIChallenge : Challenge
 {
+    AudioSource audio;
+
     public OnItemChosenEvent OnItemChosen = new OnItemChosenEvent();
 
     public List<ItemBehaviour> items;
@@ -23,8 +25,12 @@ public class FHIChallenge : Challenge
     ItemBehaviour currentItem;
     string currentText;
 
+    public AudioClip correct_sfx;
+
     void Start()
     {
+        audio = GetComponent<AudioSource>();
+
         foreach(var x in items)
         {
             x.onItemClicked.AddListener(CheckForCorrectItem);
@@ -45,6 +51,7 @@ public class FHIChallenge : Challenge
     {
         if(item.GetInstanceID() == currentItem.GetInstanceID())
         {
+            audio.PlayOneShot(correct_sfx);
             StartCoroutine(item.Flash(duration, frequency, flashColor, () => OnChallengeFinished.Invoke()));
         }
     }

@@ -14,7 +14,6 @@ public class ChallengeManager : MonoBehaviour
     }
     #endregion
 
-    public ChallengeType ChallengeType;
     public GameObject challengeContainer;
 
     int progress = 0;
@@ -77,10 +76,4 @@ public class ChallengeManager : MonoBehaviour
     {
         GetCurrentChallenge()?.ResetProgress();
     }
-}
-
-public enum ChallengeType
-{
-    Find_The_Differences = 0,
-    Find_Hidden_Items = 1
 }
