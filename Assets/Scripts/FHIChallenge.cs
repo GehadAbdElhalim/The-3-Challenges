@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using RTLTMPro;
 
 public class FHIChallenge : Challenge
 {
     AudioSource audio;
 
-    public OnItemChosenEvent OnItemChosen = new OnItemChosenEvent();
-
     public List<ItemBehaviour> items;
-    public List<string> texts;
+    public List<GameObject> texts;
 
     [Header("Duration of the challenge")]
     public int minutes;
@@ -23,7 +22,7 @@ public class FHIChallenge : Challenge
     public Color flashColor;
 
     ItemBehaviour currentItem;
-    string currentText;
+    GameObject currentText;
 
     public AudioClip correct_sfx;
 
@@ -44,7 +43,7 @@ public class FHIChallenge : Challenge
         int index = Random.Range(0, items.Count);
         currentItem = items[index];
         currentText = texts[index];
-        OnItemChosen.Invoke(currentText);
+        ActivateCurrentText();
     }
 
     void CheckForCorrectItem(ItemBehaviour item)
@@ -59,16 +58,26 @@ public class FHIChallenge : Challenge
     private void OnEnable()
     {
         TimerController.Instance.StartTimer(seconds, minutes, null, null);
+        ChooseRandomObject();
     }
 
     public override void ResetProgress()
     {
+        DisableAllTexts();
         TimerController.Instance.StartTimer(seconds, minutes, null, null);
     }
-}
 
-[System.Serializable]
-public class OnItemChosenEvent : UnityEvent<string>
-{
+    void DisableAllTexts()
+    {
+        foreach(var text in texts)
+        {
+            text.SetActive(false);
+        }
+    }
 
+    void ActivateCurrentText()
+    {
+        DisableAllTexts();
+        currentText.SetActive(true);
+    }
 }
