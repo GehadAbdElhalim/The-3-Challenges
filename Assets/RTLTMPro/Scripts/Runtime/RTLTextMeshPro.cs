@@ -1,4 +1,4 @@
-﻿#define RTL_OVERRIDE
+﻿//#define RTL_OVERRIDE
 
 using System.Text;
 using TMPro;
@@ -11,7 +11,7 @@ namespace RTLTMPro
     {
         // ReSharper disable once InconsistentNaming
 #if RTL_OVERRIDE
-        public override string text
+        public string text
 #else
         public new string text
 #endif
