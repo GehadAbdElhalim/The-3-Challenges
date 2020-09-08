@@ -10,7 +10,7 @@ public class PuzzleChallenge : Challenge
 
     private void Start()
     {
-        MakeGrid(new Vector3(-566,295,0));
+        //MakeGrid(new Vector3(-566,295,0));
     }
 
     void MakeGrid(Vector3 startPos)
