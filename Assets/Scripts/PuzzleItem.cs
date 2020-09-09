@@ -8,6 +8,8 @@ public class PuzzleItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDr
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
 
+    public int Index;
+
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
