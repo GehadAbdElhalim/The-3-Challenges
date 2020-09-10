@@ -26,6 +26,11 @@ public class PuzzleChallenge : Challenge
         {
             ec.OnPiecePut.AddListener(CheckPuzzle);
         }
+
+        foreach (EmptyCell ec in SonEmptyCells)
+        {
+            ec.OnPiecePut.AddListener(CheckPuzzle);
+        }
     }
 
     void CheckPuzzle(int cellIndex, int puzzlePieceIndex)
@@ -40,7 +45,7 @@ public class PuzzleChallenge : Challenge
             }
         }
 
-        SwitchTurn();
+        Invoke("SwitchTurn", 1f);
     }
 
     bool CheckIFPuzzleIsComplete()
