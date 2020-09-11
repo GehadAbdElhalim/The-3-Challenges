@@ -5,14 +5,16 @@ using UnityEngine.UI;
 
 public class PuzzleChallenge : Challenge
 {
+    AudioSource audio;
+
     public GameObject Father;
     public GameObject Son;
+    
+    private PuzzleItem[] FatherPuzzleItems;
+    private PuzzleItem[] SonPuzzleItems;
 
-    public GameObject[] FatherPuzzleItems;
-    public GameObject[] SonPuzzleItems;
-
-    public EmptyCell[] FatherEmptyCells;
-    public EmptyCell[] SonEmptyCells;
+    private EmptyCell[] FatherEmptyCells;
+    private EmptyCell[] SonEmptyCells;
 
     private bool[] CorrectPuzzlePieces = new bool[50];
 
@@ -20,9 +22,24 @@ public class PuzzleChallenge : Challenge
     public int minutes;
     public int seconds;
 
+    [Header("SFX")]
+    public AudioClip PuzzlePiecePickedUp;
+    public AudioClip PuzzlePieceInsertedInCell;
+
+    private void Awake()
+    {
+        FatherPuzzleItems = Father.GetComponentsInChildren<PuzzleItem>();
+        SonPuzzleItems = Son.GetComponentsInChildren<PuzzleItem>();
+
+        FatherEmptyCells = Father.GetComponentsInChildren<EmptyCell>();
+        SonEmptyCells = Son.GetComponentsInChildren<EmptyCell>();
+    }
+
     private void Start()
     {
-        foreach(EmptyCell ec in FatherEmptyCells)
+        audio = GetComponent<AudioSource>();
+
+        foreach (EmptyCell ec in FatherEmptyCells)
         {
             ec.OnPiecePut.AddListener(CheckPuzzle);
         }
@@ -31,13 +48,35 @@ public class PuzzleChallenge : Challenge
         {
             ec.OnPiecePut.AddListener(CheckPuzzle);
         }
+
+        foreach(PuzzleItem pi in FatherPuzzleItems)
+        {
+            pi.OnPieceThrown.AddListener(OnPieceDroppedOutside);
+            pi.OnPiecePickedUp.AddListener(PlayPickupSFX);
+        }
+
+        foreach (PuzzleItem pi in SonPuzzleItems)
+        {
+            pi.OnPieceThrown.AddListener(OnPieceDroppedOutside);
+            pi.OnPiecePickedUp.AddListener(PlayPickupSFX);
+        }
     }
 
     void CheckPuzzle(int cellIndex, int puzzlePieceIndex)
     {
+        //SFX
+        PlayInsertSFX();
+
+        //logic
         if(cellIndex == puzzlePieceIndex)
         {
+            if (CorrectPuzzlePieces[cellIndex])
+            {
+                return;
+            }
+
             CorrectPuzzlePieces[cellIndex] = true;
+
             if (CheckIFPuzzleIsComplete())
             {
                 OnChallengeFinished.Invoke();
@@ -46,6 +85,21 @@ public class PuzzleChallenge : Challenge
         }
 
         Invoke("SwitchTurn", 1f);
+    }
+
+    void OnPieceDroppedOutside(int index)
+    {
+        CorrectPuzzlePieces[index] = false;
+    }
+
+    void PlayPickupSFX()
+    {
+        audio.PlayOneShot(PuzzlePiecePickedUp);
+    }
+
+    void PlayInsertSFX()
+    {
+        audio.PlayOneShot(PuzzlePieceInsertedInCell);
     }
 
     bool CheckIFPuzzleIsComplete()
@@ -61,7 +115,7 @@ public class PuzzleChallenge : Challenge
         return true;
     }
 
-    void RandomizePuzzleItems(GameObject[] arr)
+    void RandomizePuzzleItems(PuzzleItem[] arr)
     {
         for (int t = 0; t < arr.Length; t++)
         {
@@ -69,6 +123,11 @@ public class PuzzleChallenge : Challenge
             int r = Random.Range(t, arr.Length);
             arr[t].transform.position = arr[r].transform.position;
             arr[r].transform.position = tmp;
+        }
+
+        foreach(PuzzleItem pi in arr)
+        {
+            pi.SetOriginalPosition();
         }
     }
 
