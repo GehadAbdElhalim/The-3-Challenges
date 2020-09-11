@@ -143,7 +143,10 @@ public class PuzzleChallenge : Challenge
         Son.SetActive(false);
         blockInput.SetActive(false);
 
-        TimerController.Instance.StartTimer(seconds, minutes, null, null);
+        if (!ChallengeManager.Instance.tutorial.activeSelf)
+        {
+            TimerController.Instance.StartTimer(seconds, minutes, null, null);
+        }
     }
 
     public void SwitchTurn()

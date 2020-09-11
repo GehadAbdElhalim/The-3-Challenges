@@ -6,13 +6,30 @@ using UnityEngine.Events;
 public class TimerController : MonoBehaviour
 {
     #region Singleton
-    public static TimerController Instance { private set; get; }
+
+    private static TimerController _instance;
+    public static TimerController Instance {
+        private set
+        {
+            _instance = FindObjectOfType<TimerController>();
+        }
+        get 
+        {
+            if(_instance == null)
+            {
+                _instance = FindObjectOfType<TimerController>();
+            }
+
+            return _instance;
+        
+        } }
+
 
     private void Awake()
     {
-        if (!Instance)
+        if (!_instance)
         {
-            Instance = this;
+            _instance = this;
         }
         else
         {

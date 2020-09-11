@@ -52,7 +52,10 @@ public class FTDChallenge : Challenge
 
     private void OnEnable()
     {
-        TimerController.Instance.StartTimer(seconds, minutes, null, null);
+        if (!ChallengeManager.Instance.tutorial.activeSelf)
+        {
+            TimerController.Instance.StartTimer(seconds, minutes, null, null);
+        }
     }
 
     void OnDifferenceFound(int index)

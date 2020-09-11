@@ -18,12 +18,16 @@ public class ChallengeManager : MonoBehaviour
 
     public GameObject challengeContainer;
 
+    public GameObject tutorial;
+
     int progress = 0;
 
     List<Challenge> _challenges = new List<Challenge>();
 
     private void Start()
     {
+        tutorial?.SetActive(true);
+
         //Get all the challenges
         for(int i = 0; i < challengeContainer.transform.childCount; i++)
         {
