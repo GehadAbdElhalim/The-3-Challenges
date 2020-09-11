@@ -9,6 +9,8 @@ public class PuzzleChallenge : Challenge
 
     public GameObject Father;
     public GameObject Son;
+
+    public GameObject blockInput;
     
     private PuzzleItem[] FatherPuzzleItems;
     private PuzzleItem[] SonPuzzleItems;
@@ -84,6 +86,7 @@ public class PuzzleChallenge : Challenge
             }
         }
 
+        blockInput.SetActive(true);
         Invoke("SwitchTurn", 1f);
     }
 
@@ -133,21 +136,38 @@ public class PuzzleChallenge : Challenge
 
     private void OnEnable()
     {
-        TimerController.Instance.StartTimer(seconds, minutes, null, null);
         RandomizePuzzleItems(FatherPuzzleItems);
         RandomizePuzzleItems(SonPuzzleItems);
+
         Father.SetActive(true);
         Son.SetActive(false);
+        blockInput.SetActive(false);
+
+        TimerController.Instance.StartTimer(seconds, minutes, null, null);
     }
 
     public void SwitchTurn()
     {
         Father.SetActive(!Father.activeSelf);
         Son.SetActive(!Son.activeSelf);
+
+        blockInput.SetActive(false);
     }
 
     public override void ResetProgress()
     {
+        foreach(PuzzleItem pi in FatherPuzzleItems)
+        {
+            pi.ResetToOriginalPosition();
+        }
+        
+        foreach(PuzzleItem pi in SonPuzzleItems)
+        {
+            pi.ResetToOriginalPosition();
+        }
+
+        CorrectPuzzlePieces = new bool[50];
+
         TimerController.Instance.StartTimer(seconds, minutes, null, null);
     }
 }

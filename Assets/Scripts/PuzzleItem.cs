@@ -27,6 +27,11 @@ public class PuzzleItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDr
         originalPos = transform.position;
     }
 
+    public void ResetToOriginalPosition()
+    {
+        transform.position = originalPos;
+    }
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         OnPiecePickedUp.Invoke();
