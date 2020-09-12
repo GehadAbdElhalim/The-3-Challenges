@@ -8942,6 +8942,11 @@ PrefabInstance:
       propertyPath: tutorial
       value: 
       objectReference: {fileID: 1111528251}
+    - target: {fileID: 8879559657201732863, guid: d424afe3ca936044cbc145b3ccdfc829,
+        type: 3}
+      propertyPath: challengeType
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d424afe3ca936044cbc145b3ccdfc829, type: 3}
 --- !u!1001 &9077771583532718488

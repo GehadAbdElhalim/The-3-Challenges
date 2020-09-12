@@ -20,11 +20,38 @@ public class ChallengeManager : MonoBehaviour
             Instance = this;
         }
 
-        tutorial?.SetActive(true);
+        switch (challengeType)
+        {
+            case ChallengeType.Puzzle:
+                if(PlayerPrefs.GetInt("Puzzle") == 0)
+                {
+                    PlayerPrefs.SetInt("Puzzle", 1);
+                    tutorial?.SetActive(true);
+                }
+                break;
+            case ChallengeType.Find_the_differences:
+                if (PlayerPrefs.GetInt("FTD") == 0)
+                {
+                    PlayerPrefs.SetInt("FTD", 1);
+                    tutorial?.SetActive(true);
+                }
+                break;
+            case ChallengeType.Find_the_hidden_items:
+                if (PlayerPrefs.GetInt("FHI") == 0)
+                {
+                    PlayerPrefs.SetInt("FHI", 1);
+                    tutorial?.SetActive(true);
+                }
+                break;
+            default:
+                break;
+        }
     }
     #endregion
 
     public UnityEvent OnLevelCompleted = new UnityEvent();
+
+    public ChallengeType challengeType;
 
     public GameObject challengeContainer;
 
@@ -89,4 +116,11 @@ public class ChallengeManager : MonoBehaviour
     {
         GetCurrentChallenge()?.ResetProgress();
     }
+}
+
+public enum ChallengeType
+{
+    Puzzle = 0,
+    Find_the_differences = 1,
+    Find_the_hidden_items = 2
 }
