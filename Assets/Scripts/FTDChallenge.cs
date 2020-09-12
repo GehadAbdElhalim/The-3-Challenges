@@ -52,6 +52,11 @@ public class FTDChallenge : Challenge
 
     private void OnEnable()
     {
+        Invoke("StartTimer", Time.deltaTime);
+    }
+
+    void StartTimer()
+    {
         if (!ChallengeManager.Instance.tutorial.activeSelf)
         {
             TimerController.Instance.StartTimer(seconds, minutes, null, null);

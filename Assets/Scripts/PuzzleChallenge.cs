@@ -143,6 +143,11 @@ public class PuzzleChallenge : Challenge
         Son.SetActive(false);
         blockInput.SetActive(false);
 
+        Invoke("StartTimer", Time.deltaTime);
+    }
+
+    void StartTimer()
+    {
         if (!ChallengeManager.Instance.tutorial.activeSelf)
         {
             TimerController.Instance.StartTimer(seconds, minutes, null, null);

@@ -958,6 +958,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   currentTime: 
+  startingSeconds: 0
+  startingMinutes: 15
+  startingHours: 0
 --- !u!4 &238357709
 Transform:
   m_ObjectHideFlags: 0
@@ -3026,7 +3029,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -39.00006}
+  m_AnchoredPosition: {x: 0, y: -39.000122}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &547356374

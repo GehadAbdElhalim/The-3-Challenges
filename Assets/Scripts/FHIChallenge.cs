@@ -57,11 +57,17 @@ public class FHIChallenge : Challenge
 
     private void OnEnable()
     {
+        ChooseRandomObject();
+
+        Invoke("StartTimer", Time.deltaTime);
+    }
+
+    void StartTimer()
+    {
         if (!ChallengeManager.Instance.tutorial.activeSelf)
         {
             TimerController.Instance.StartTimer(seconds, minutes, null, null);
         }
-        ChooseRandomObject();
     }
 
     public override void ResetProgress()

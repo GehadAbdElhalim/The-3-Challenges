@@ -42,9 +42,13 @@ public class TimerController : MonoBehaviour
     public UnityEvent OnTimerEnd = new UnityEvent();
     public OnTimerValueChanged onTimerValueChanged = new OnTimerValueChanged();
     private bool isTimerOn;
-    private int prevSecond;
 
     public string currentTime;
+
+    [Header("starting values")]
+    public float startingSeconds;
+    public float startingMinutes;
+    public float startingHours;
 
     public void StartTimer(float seconds, UnityAction<string> timerValueChanged, UnityAction endTimerCallBack)
     {
@@ -55,8 +59,6 @@ public class TimerController : MonoBehaviour
 
         //onTimerValueChanged = new OnTimerValueChanged();
         onTimerValueChanged.AddListener(timerValueChanged);
-
-        prevSecond = (int)timerSeconds;
 
         isTimerOn = true;
     }
@@ -78,8 +80,6 @@ public class TimerController : MonoBehaviour
             onTimerValueChanged.AddListener(timerValueChanged);
         }
 
-        prevSecond = (int)timerSeconds;
-
         isTimerOn = true;
     }
 
@@ -95,9 +95,17 @@ public class TimerController : MonoBehaviour
         //onTimerValueChanged = new OnTimerValueChanged();
         onTimerValueChanged.AddListener(timerValueChanged);
 
-        prevSecond = (int)timerSeconds;
-
         isTimerOn = true;
+    }
+
+    void OnEnable()
+    {
+        timerHours = startingHours;
+        timerMins = startingMinutes;
+        timerSeconds = startingSeconds;
+
+        string time = ((timerHours > 0) ? timerHours.ToString("00") + ":" : "") + (timerMins.ToString("00") + ":") + timerSeconds.ToString("00");
+        onTimerValueChanged.Invoke(time);   
     }
 
     void Update()

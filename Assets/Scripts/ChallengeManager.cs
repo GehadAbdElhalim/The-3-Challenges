@@ -12,6 +12,16 @@ public class ChallengeManager : MonoBehaviour
     {
         Instance = this;
     }
+
+    private void OnEnable()
+    {
+        if (!Instance)
+        {
+            Instance = this;
+        }
+
+        tutorial?.SetActive(true);
+    }
     #endregion
 
     public UnityEvent OnLevelCompleted = new UnityEvent();
@@ -26,8 +36,6 @@ public class ChallengeManager : MonoBehaviour
 
     private void Start()
     {
-        tutorial?.SetActive(true);
-
         //Get all the challenges
         for(int i = 0; i < challengeContainer.transform.childCount; i++)
         {

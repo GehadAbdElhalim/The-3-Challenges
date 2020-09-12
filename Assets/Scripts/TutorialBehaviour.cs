@@ -39,11 +39,6 @@ public class TutorialBehaviour : MonoBehaviour
         TimerController.Instance?.PauseTimer();
     }
 
-    private void Start()
-    {
-        TimerController.Instance.PauseTimer();
-    }
-
     private void OnDisable()
     {
         DisableAllSlides();
