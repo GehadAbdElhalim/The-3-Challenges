@@ -23,7 +23,7 @@ public class ChallengeManager : MonoBehaviour
         switch (challengeType)
         {
             case ChallengeType.Puzzle:
-                if(PlayerPrefs.GetInt("Puzzle") == 0)
+                if (PlayerPrefs.GetInt("Puzzle") == 0)
                 {
                     PlayerPrefs.SetInt("Puzzle", 1);
                     tutorial?.SetActive(true);
@@ -61,16 +61,22 @@ public class ChallengeManager : MonoBehaviour
 
     List<Challenge> _challenges = new List<Challenge>();
 
+    [ContextMenu("Clear Data")]
+    public void ClearAllData()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+
     private void Start()
     {
         //Get all the challenges
-        for(int i = 0; i < challengeContainer.transform.childCount; i++)
+        for (int i = 0; i < challengeContainer.transform.childCount; i++)
         {
             _challenges.Add(challengeContainer.transform.GetChild(i).GetComponent<Challenge>());
         }
 
         //Listen to their events
-        foreach(var challenge in _challenges)
+        foreach (var challenge in _challenges)
         {
             challenge.OnChallengeFinished.AddListener(OnChallengeFinished);
         }
@@ -81,7 +87,7 @@ public class ChallengeManager : MonoBehaviour
 
     void DisableAllChallenges()
     {
-        foreach(var challenge in _challenges)
+        foreach (var challenge in _challenges)
         {
             challenge.gameObject.SetActive(false);
         }
@@ -96,7 +102,7 @@ public class ChallengeManager : MonoBehaviour
     {
         progress++;
 
-        if(progress >= _challenges.Count)
+        if (progress >= _challenges.Count)
         {
             OnLevelCompleted.Invoke();
         }
