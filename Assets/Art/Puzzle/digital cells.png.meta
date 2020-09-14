@@ -1,0 +1,3040 @@
+fileFormatVersion: 2
+guid: a2802af5306bac34a8bd8ec3be7e1a9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6894701828485006715
+    second: digital cells_0
+  - first:
+      213: 5387672491064471292
+    second: digital cells_1
+  - first:
+      213: -8460516611039560719
+    second: digital cells_2
+  - first:
+      213: 1468420623770065791
+    second: digital cells_3
+  - first:
+      213: -4168565630156304796
+    second: digital cells_4
+  - first:
+      213: 3188011124791122832
+    second: digital cells_5
+  - first:
+      213: -1145827129049136162
+    second: digital cells_6
+  - first:
+      213: 2118728623423120160
+    second: digital cells_7
+  - first:
+      213: -112945975692562195
+    second: digital cells_8
+  - first:
+      213: 4258740891113907735
+    second: digital cells_9
+  - first:
+      213: 3099454911666178171
+    second: digital cells_10
+  - first:
+      213: -3212140488760859436
+    second: digital cells_11
+  - first:
+      213: 8266599109278247205
+    second: digital cells_12
+  - first:
+      213: 968625695456205221
+    second: digital cells_13
+  - first:
+      213: -4390263501283620685
+    second: digital cells_14
+  - first:
+      213: 7033685346901390116
+    second: digital cells_15
+  - first:
+      213: 3276702825766831573
+    second: digital cells_16
+  - first:
+      213: -2763069532663162778
+    second: digital cells_17
+  - first:
+      213: -7000286128072050552
+    second: digital cells_18
+  - first:
+      213: 8137938602667831205
+    second: digital cells_19
+  - first:
+      213: 4311642297423626277
+    second: digital cells_20
+  - first:
+      213: 7894056911819279975
+    second: digital cells_21
+  - first:
+      213: 2280704828715827944
+    second: digital cells_22
+  - first:
+      213: -2537345611484743134
+    second: digital cells_23
+  - first:
+      213: 6055531256173925521
+    second: digital cells_24
+  - first:
+      213: -8815557373921964106
+    second: digital cells_25
+  - first:
+      213: 588711125683901406
+    second: digital cells_26
+  - first:
+      213: -3162822010489650652
+    second: digital cells_27
+  - first:
+      213: -8686231288669132843
+    second: digital cells_28
+  - first:
+      213: 1929859612445732322
+    second: digital cells_29
+  - first:
+      213: 689010081619865718
+    second: digital cells_30
+  - first:
+      213: 6766179561959420349
+    second: digital cells_31
+  - first:
+      213: -3684676073710792121
+    second: digital cells_32
+  - first:
+      213: -4614135250281857755
+    second: digital cells_33
+  - first:
+      213: -8868752272095518065
+    second: digital cells_34
+  - first:
+      213: 833879873425532006
+    second: digital cells_35
+  - first:
+      213: 6678698328040435465
+    second: digital cells_36
+  - first:
+      213: -8404841238523593990
+    second: digital cells_37
+  - first:
+      213: 5421046673834445191
+    second: digital cells_38
+  - first:
+      213: -1871526487360326784
+    second: digital cells_39
+  - first:
+      213: 5076550120013303847
+    second: digital cells_40
+  - first:
+      213: 1119412103508992768
+    second: digital cells_41
+  - first:
+      213: 1294612518119028573
+    second: digital cells_42
+  - first:
+      213: 8093409218021691467
+    second: digital cells_43
+  - first:
+      213: 8150890849253841033
+    second: digital cells_44
+  - first:
+      213: 9192125404158824742
+    second: digital cells_45
+  - first:
+      213: -842258354882745629
+    second: digital cells_46
+  - first:
+      213: 8368251803303909703
+    second: digital cells_47
+  - first:
+      213: 9153908044068959854
+    second: digital cells_48
+  - first:
+      213: -7251122286410069082
+    second: digital cells_49
+  - first:
+      213: 6300069713558996710
+    second: digital cells_50
+  - first:
+      213: -4957181333403893191
+    second: digital cells_51
+  - first:
+      213: 6697620384870492329
+    second: digital cells_52
+  - first:
+      213: 8598554401570027366
+    second: digital cells_53
+  - first:
+      213: -5130010852137022834
+    second: digital cells_54
+  - first:
+      213: -4230325243864507864
+    second: digital cells_55
+  - first:
+      213: -7862259617502154681
+    second: digital cells_56
+  - first:
+      213: -1717497622142637267
+    second: digital cells_57
+  - first:
+      213: 2286176724468767838
+    second: digital cells_58
+  - first:
+      213: -6862871957362034413
+    second: digital cells_59
+  - first:
+      213: -2393447209765257988
+    second: digital cells_60
+  - first:
+      213: 1285467732478804213
+    second: digital cells_61
+  - first:
+      213: -9040564085634294065
+    second: digital cells_62
+  - first:
+      213: -8692540180724647395
+    second: digital cells_63
+  - first:
+      213: -7586459750739429145
+    second: digital cells_64
+  - first:
+      213: -4029599060997262684
+    second: digital cells_65
+  - first:
+      213: -5467056021240339458
+    second: digital cells_66
+  - first:
+      213: 6126335207771072641
+    second: digital cells_67
+  - first:
+      213: -4961875212522077556
+    second: digital cells_68
+  - first:
+      213: 3840130551315482119
+    second: digital cells_69
+  - first:
+      213: 6615166530709522230
+    second: digital cells_70
+  - first:
+      213: 4854498712769826221
+    second: digital cells_71
+  - first:
+      213: 6793018184279068981
+    second: digital cells_72
+  - first:
+      213: 4769480309660477881
+    second: digital cells_73
+  - first:
+      213: 6750593978312999476
+    second: digital cells_74
+  - first:
+      213: 2344405269701209381
+    second: digital cells_75
+  - first:
+      213: -2240517269866086548
+    second: digital cells_76
+  - first:
+      213: -5622437737027780648
+    second: digital cells_77
+  - first:
+      213: -2905820526125362615
+    second: digital cells_78
+  - first:
+      213: -7631998919026810881
+    second: digital cells_79
+  - first:
+      213: 1107979412654029660
+    second: digital cells_80
+  - first:
+      213: -3906180954305604814
+    second: digital cells_81
+  - first:
+      213: -2432657345110970959
+    second: digital cells_82
+  - first:
+      213: 407952578374583845
+    second: digital cells_83
+  - first:
+      213: 4049294368469755912
+    second: digital cells_84
+  - first:
+      213: 3255560102832876935
+    second: digital cells_85
+  - first:
+      213: -5619070520865494998
+    second: digital cells_86
+  - first:
+      213: 8987550825789547514
+    second: digital cells_87
+  - first:
+      213: 1736743240987896374
+    second: digital cells_88
+  - first:
+      213: 49596314783588437
+    second: digital cells_89
+  - first:
+      213: -8375853469989089519
+    second: digital cells_90
+  - first:
+      213: 1551262024995096696
+    second: digital cells_91
+  - first:
+      213: -7141276963669188036
+    second: digital cells_92
+  - first:
+      213: 654824049816075562
+    second: digital cells_93
+  - first:
+      213: 2508649864132999078
+    second: digital cells_94
+  - first:
+      213: -1577774792912760593
+    second: digital cells_95
+  - first:
+      213: -2591545429227769931
+    second: digital cells_96
+  - first:
+      213: -4435174574172651315
+    second: digital cells_97
+  - first:
+      213: -8913336096624269803
+    second: digital cells_98
+  - first:
+      213: -1698921587557527596
+    second: digital cells_99
+  - first:
+      213: 7699371328920383156
+    second: digital cells_100
+  - first:
+      213: -8899816894370250423
+    second: digital cells_101
+  - first:
+      213: 5658821535703458167
+    second: digital cells_102
+  - first:
+      213: -5448666072516586984
+    second: digital cells_103
+  - first:
+      213: -1328140546653159681
+    second: digital cells_104
+  - first:
+      213: 7880375111818954239
+    second: digital cells_105
+  - first:
+      213: -3314276960109410034
+    second: digital cells_106
+  - first:
+      213: 6694255831561898317
+    second: digital cells_107
+  - first:
+      213: 7879235853920172463
+    second: digital cells_108
+  - first:
+      213: -9196975203471787292
+    second: digital cells_109
+  - first:
+      213: -2783843962630207266
+    second: digital cells_110
+  - first:
+      213: 7433152922512374558
+    second: digital cells_111
+  - first:
+      213: -5118474507163319515
+    second: digital cells_112
+  - first:
+      213: 6949894514607756209
+    second: digital cells_113
+  - first:
+      213: 636998781392950752
+    second: digital cells_114
+  - first:
+      213: -8995630551052154839
+    second: digital cells_115
+  - first:
+      213: 1039503439944157546
+    second: digital cells_116
+  - first:
+      213: -8379804273736777034
+    second: digital cells_117
+  - first:
+      213: -1530540402540269539
+    second: digital cells_118
+  - first:
+      213: -5587086563070347402
+    second: digital cells_119
+  - first:
+      213: -4313936781320522723
+    second: digital cells_120
+  - first:
+      213: 2821079515233530292
+    second: digital cells_121
+  - first:
+      213: -8471424165078019543
+    second: digital cells_122
+  - first:
+      213: -3306589757904275870
+    second: digital cells_123
+  - first:
+      213: -2215977096207750338
+    second: digital cells_124
+  - first:
+      213: -4013937873935813815
+    second: digital cells_125
+  - first:
+      213: -6769634507371466029
+    second: digital cells_126
+  - first:
+      213: 6214375757986696949
+    second: digital cells_127
+  - first:
+      213: -3100015080444222631
+    second: digital cells_128
+  - first:
+      213: 361570449359111784
+    second: digital cells_129
+  - first:
+      213: -3091620879672117532
+    second: digital cells_130
+  - first:
+      213: 78059085577709606
+    second: digital cells_131
+  - first:
+      213: -3160402851719102893
+    second: digital cells_132
+  - first:
+      213: 83861637337762930
+    second: digital cells_133
+  - first:
+      213: 8257881195099977317
+    second: digital cells_134
+  - first:
+      213: 6647409026235215960
+    second: digital cells_135
+  - first:
+      213: -2962497745325462359
+    second: digital cells_136
+  - first:
+      213: 2998447644497827854
+    second: digital cells_137
+  - first:
+      213: -4137349405420994999
+    second: digital cells_138
+  - first:
+      213: -2512198995089598408
+    second: digital cells_139
+  - first:
+      213: -3809330110080292419
+    second: digital cells_140
+  - first:
+      213: -6928693525941754875
+    second: digital cells_141
+  - first:
+      213: -7656243456066248595
+    second: digital cells_142
+  - first:
+      213: -6616542814392359235
+    second: digital cells_143
+  - first:
+      213: 6878748972396730215
+    second: digital cells_144
+  - first:
+      213: 3292725560209125255
+    second: digital cells_145
+  - first:
+      213: -1790686292417265195
+    second: digital cells_146
+  - first:
+      213: -6412353656143461029
+    second: digital cells_147
+  - first:
+      213: 2827255323786721701
+    second: digital cells_148
+  - first:
+      213: 1085947579504854550
+    second: digital cells_149
+  - first:
+      213: -6693964997036310992
+    second: digital cells_150
+  - first:
+      213: 9011353431422616769
+    second: digital cells_151
+  - first:
+      213: 6918067678029162196
+    second: digital cells_152
+  - first:
+      213: -8458992232975532029
+    second: digital cells_153
+  - first:
+      213: -964636472315901345
+    second: digital cells_154
+  - first:
+      213: 1441463166449251513
+    second: digital cells_155
+  - first:
+      213: 2073915381550623862
+    second: digital cells_156
+  - first:
+      213: 3157099069714759684
+    second: digital cells_157
+  - first:
+      213: -2674041632811182960
+    second: digital cells_158
+  - first:
+      213: -548241244680972151
+    second: digital cells_159
+  - first:
+      213: 6380190099533143883
+    second: digital cells_160
+  - first:
+      213: -6548572530251224499
+    second: digital cells_161
+  - first:
+      213: -1960569304857431665
+    second: digital cells_162
+  - first:
+      213: 7314134579898589732
+    second: digital cells_163
+  - first:
+      213: 7033284624323297741
+    second: digital cells_164
+  - first:
+      213: 387031863833940257
+    second: digital cells_165
+  - first:
+      213: 1852511241361912900
+    second: digital cells_166
+  - first:
+      213: 3210898004653228543
+    second: digital cells_167
+  - first:
+      213: -2706290242693677145
+    second: digital cells_168
+  - first:
+      213: -3528680824632162140
+    second: digital cells_169
+  - first:
+      213: -7981167077371698492
+    second: digital cells_170
+  - first:
+      213: -8458209078907416279
+    second: digital cells_171
+  - first:
+      213: 6119034371809283610
+    second: digital cells_172
+  - first:
+      213: 2170747424155446082
+    second: digital cells_173
+  - first:
+      213: 5760852831196671912
+    second: digital cells_174
+  - first:
+      213: -2613423524647671753
+    second: digital cells_175
+  - first:
+      213: -3108571535562508878
+    second: digital cells_176
+  - first:
+      213: -794027758835532320
+    second: digital cells_177
+  - first:
+      213: -5342064646345740429
+    second: digital cells_178
+  - first:
+      213: 5151596064773742624
+    second: digital cells_179
+  - first:
+      213: 1908046696962939000
+    second: digital cells_180
+  - first:
+      213: -6765945491869432713
+    second: digital cells_181
+  - first:
+      213: 6027705576015088704
+    second: digital cells_182
+  - first:
+      213: -7295428188861924102
+    second: digital cells_183
+  - first:
+      213: 1828832480733823326
+    second: digital cells_184
+  - first:
+      213: -1000298728554558783
+    second: digital cells_185
+  - first:
+      213: -6633551300137577733
+    second: digital cells_186
+  - first:
+      213: 3345833902906934719
+    second: digital cells_187
+  - first:
+      213: -4109748216648788879
+    second: digital cells_188
+  - first:
+      213: -3764851136919804447
+    second: digital cells_189
+  - first:
+      213: -5313151099079337476
+    second: digital cells_190
+  - first:
+      213: -8247515741468316747
+    second: digital cells_191
+  - first:
+      213: -6478667868418345214
+    second: digital cells_192
+  - first:
+      213: 3248225038792712426
+    second: digital cells_193
+  - first:
+      213: -8640052235704670449
+    second: digital cells_194
+  - first:
+      213: 2664500491140666316
+    second: digital cells_195
+  - first:
+      213: -761863440364059141
+    second: digital cells_196
+  - first:
+      213: 2545485139541982104
+    second: digital cells_197
+  - first:
+      213: -6133276842241938681
+    second: digital cells_198
+  - first:
+      213: 3225495798674331538
+    second: digital cells_199
+  - first:
+      213: 595790510372855677
+    second: digital cells_200
+  - first:
+      213: -5476534222492302901
+    second: digital cells_201
+  - first:
+      213: -3879317839894608288
+    second: digital cells_202
+  - first:
+      213: -434600202114433571
+    second: digital cells_203
+  - first:
+      213: 7519051109562677667
+    second: digital cells_204
+  - first:
+      213: 7698149912525157696
+    second: digital cells_205
+  - first:
+      213: 2781930662213441394
+    second: digital cells_206
+  - first:
+      213: 4955780297961828164
+    second: digital cells_207
+  - first:
+      213: -6528896093409542914
+    second: digital cells_208
+  - first:
+      213: 797945103527871449
+    second: digital cells_209
+  - first:
+      213: -2722138169855262283
+    second: digital cells_210
+  - first:
+      213: 5199838775430572936
+    second: digital cells_211
+  - first:
+      213: 814561638656487480
+    second: digital cells_212
+  - first:
+      213: -2841399167214214420
+    second: digital cells_213
+  - first:
+      213: 4851934056761045939
+    second: digital cells_214
+  - first:
+      213: 2114017516793372785
+    second: digital cells_215
+  - first:
+      213: -1074325172789919543
+    second: digital cells_216
+  - first:
+      213: 3912562997706744535
+    second: digital cells_217
+  - first:
+      213: 6455154312689473254
+    second: digital cells_218
+  - first:
+      213: -4838991950492149794
+    second: digital cells_219
+  - first:
+      213: 4298448609479174890
+    second: digital cells_220
+  - first:
+      213: 2373200076436853538
+    second: digital cells_221
+  - first:
+      213: 7411427983634732536
+    second: digital cells_222
+  - first:
+      213: -6705858773654036143
+    second: digital cells_223
+  - first:
+      213: -2934870335491566182
+    second: digital cells_224
+  - first:
+      213: -4618416046775541204
+    second: digital cells_225
+  - first:
+      213: -1060402947170955212
+    second: digital cells_226
+  - first:
+      213: -5860336197220034206
+    second: digital cells_227
+  - first:
+      213: -6311986349972871977
+    second: digital cells_228
+  - first:
+      213: 6864887843715048973
+    second: digital cells_229
+  - first:
+      213: -5020512942315285649
+    second: digital cells_230
+  - first:
+      213: -3939306811409481138
+    second: digital cells_231
+  - first:
+      213: 3254625700867809751
+    second: digital cells_232
+  - first:
+      213: -1858076816187437768
+    second: digital cells_233
+  - first:
+      213: -5153051695186841313
+    second: digital cells_234
+  - first:
+      213: 6306014020007890666
+    second: digital cells_235
+  - first:
+      213: 8168955180895215530
+    second: digital cells_236
+  - first:
+      213: -4249649650108261380
+    second: digital cells_237
+  - first:
+      213: -3721291353427436165
+    second: digital cells_238
+  - first:
+      213: 4376196337934451698
+    second: digital cells_239
+  - first:
+      213: -3550450400057348384
+    second: digital cells_240
+  - first:
+      213: 2035538384129495960
+    second: digital cells_241
+  - first:
+      213: -2326237760719466658
+    second: digital cells_242
+  - first:
+      213: -2024676380152762057
+    second: digital cells_243
+  - first:
+      213: 1863479506790171107
+    second: digital cells_244
+  - first:
+      213: -8325215682557829283
+    second: digital cells_245
+  - first:
+      213: 985487191470639000
+    second: digital cells_246
+  - first:
+      213: 7068044229811499537
+    second: digital cells_247
+  - first:
+      213: 3697362773610543147
+    second: digital cells_248
+  - first:
+      213: 3761410015060376061
+    second: digital cells_249
+  - first:
+      213: 5095336803270624121
+    second: digital cells_250
+  - first:
+      213: -6241145871516197209
+    second: digital cells_251
+  - first:
+      213: 2106951515675674081
+    second: digital cells_252
+  - first:
+      213: -49758081219910851
+    second: digital cells_253
+  - first:
+      213: -5201893526762083115
+    second: digital cells_254
+  - first:
+      213: 5032587443809338010
+    second: digital cells_255
+  - first:
+      213: -4759096506796367407
+    second: digital cells_256
+  - first:
+      213: -7872849824113227179
+    second: digital cells_257
+  - first:
+      213: 7105320204080933915
+    second: digital cells_258
+  - first:
+      213: -3264584491590562696
+    second: digital cells_259
+  - first:
+      213: 4382075956077547242
+    second: digital cells_260
+  - first:
+      213: 4567975008853180070
+    second: digital cells_261
+  - first:
+      213: 4442956045331666790
+    second: digital cells_262
+  - first:
+      213: 7349017819781423771
+    second: digital cells_263
+  - first:
+      213: 8552663162856722176
+    second: digital cells_264
+  - first:
+      213: -6970036931580650712
+    second: digital cells_265
+  - first:
+      213: -401562514877584743
+    second: digital cells_266
+  - first:
+      213: -2586733218703634410
+    second: digital cells_267
+  - first:
+      213: -7240909837314229773
+    second: digital cells_268
+  - first:
+      213: 5745366687491553497
+    second: digital cells_269
+  - first:
+      213: 8527732219379211187
+    second: digital cells_270
+  - first:
+      213: 2625964200577566419
+    second: digital cells_271
+  - first:
+      213: 2089368934974556870
+    second: digital cells_272
+  - first:
+      213: -758337431032251840
+    second: digital cells_273
+  - first:
+      213: 8389913451449441182
+    second: digital cells_274
+  - first:
+      213: -3953757947214080835
+    second: digital cells_275
+  - first:
+      213: 5915884711050650501
+    second: digital cells_276
+  - first:
+      213: -812209934750670983
+    second: digital cells_277
+  - first:
+      213: -978935732017159232
+    second: digital cells_278
+  - first:
+      213: -7154811137715880033
+    second: digital cells_279
+  - first:
+      213: -7722646106527246214
+    second: digital cells_280
+  - first:
+      213: -887108838672900594
+    second: digital cells_281
+  - first:
+      213: -9140130917796360801
+    second: digital cells_282
+  - first:
+      213: 1253922413263477791
+    second: digital cells_283
+  - first:
+      213: -3691980549995180311
+    second: digital cells_284
+  - first:
+      213: 1939930617059175134
+    second: digital cells_285
+  - first:
+      213: -6617366481477739447
+    second: digital cells_286
+  - first:
+      213: 3106410527401103347
+    second: digital cells_287
+  - first:
+      213: -306526897863358968
+    second: digital cells_288
+  - first:
+      213: -1820220484607316563
+    second: digital cells_289
+  - first:
+      213: -3726527395118208917
+    second: digital cells_290
+  - first:
+      213: -4835044428226112962
+    second: digital cells_291
+  - first:
+      213: -974903068248295330
+    second: digital cells_292
+  - first:
+      213: -8274808458217510861
+    second: digital cells_293
+  - first:
+      213: -2669618439176270709
+    second: digital cells_294
+  - first:
+      213: -8861510312406425400
+    second: digital cells_295
+  - first:
+      213: 4419499406672844367
+    second: digital cells_296
+  - first:
+      213: -2284179974131160606
+    second: digital cells_297
+  - first:
+      213: 2525871692331830923
+    second: digital cells_298
+  - first:
+      213: 1705006696640380306
+    second: digital cells_299
+  - first:
+      213: 6331798096236365250
+    second: digital cells_300
+  - first:
+      213: 3460919940927825461
+    second: digital cells_301
+  - first:
+      213: -8559348251340388364
+    second: digital cells_302
+  - first:
+      213: -8600901352637764463
+    second: digital cells_303
+  - first:
+      213: -2554443524776495182
+    second: digital cells_304
+  - first:
+      213: -7137001076239954632
+    second: digital cells_305
+  - first:
+      213: 8729057064697187740
+    second: digital cells_306
+  - first:
+      213: 3147052730997641005
+    second: digital cells_307
+  - first:
+      213: -6209793337469262244
+    second: digital cells_308
+  - first:
+      213: -2792804965800178569
+    second: digital cells_309
+  - first:
+      213: 8954095816785125016
+    second: digital cells_310
+  - first:
+      213: -7354340815225225170
+    second: digital cells_311
+  - first:
+      213: 4421099589837645229
+    second: digital cells_312
+  - first:
+      213: 5683351802354390997
+    second: digital cells_313
+  - first:
+      213: 3191684817526037844
+    second: digital cells_314
+  - first:
+      213: -3297985996075459253
+    second: digital cells_315
+  - first:
+      213: -1906976547557049376
+    second: digital cells_316
+  - first:
+      213: -6270376788654423273
+    second: digital cells_317
+  - first:
+      213: -8358155119555548087
+    second: digital cells_318
+  - first:
+      213: -7862072874174545246
+    second: digital cells_319
+  - first:
+      213: -5551927379653471601
+    second: digital cells_320
+  - first:
+      213: 5929452854895983817
+    second: digital cells_321
+  - first:
+      213: -3978314763635289780
+    second: digital cells_322
+  - first:
+      213: 7533194789100461518
+    second: digital cells_323
+  - first:
+      213: 8457268438774327237
+    second: digital cells_324
+  - first:
+      213: -7124839713284895435
+    second: digital cells_325
+  - first:
+      213: 8075878222425281236
+    second: digital cells_326
+  - first:
+      213: 4173106090433765425
+    second: digital cells_327
+  - first:
+      213: -3775039096481743569
+    second: digital cells_328
+  - first:
+      213: 7467139929993910003
+    second: digital cells_329
+  - first:
+      213: -1016921703240023000
+    second: digital cells_330
+  - first:
+      213: 8197535894692644853
+    second: digital cells_331
+  - first:
+      213: -8858858670771373240
+    second: digital cells_332
+  - first:
+      213: 7295033614629004051
+    second: digital cells_333
+  - first:
+      213: 4754430486720191647
+    second: digital cells_334
+  - first:
+      213: -3557223282402820990
+    second: digital cells_335
+  - first:
+      213: 977811464602273971
+    second: digital cells_336
+  - first:
+      213: 2180930615879532295
+    second: digital cells_337
+  - first:
+      213: -6538359512701899446
+    second: digital cells_338
+  - first:
+      213: -8091607002734239491
+    second: digital cells_339
+  - first:
+      213: 6238609962056645888
+    second: digital cells_340
+  - first:
+      213: 828217189807446931
+    second: digital cells_341
+  - first:
+      213: 5297096485054684857
+    second: digital cells_342
+  - first:
+      213: 8010575093498057745
+    second: digital cells_343
+  - first:
+      213: 7880782218161704464
+    second: digital cells_344
+  - first:
+      213: 9136809353604136202
+    second: digital cells_345
+  - first:
+      213: -1442404571500432940
+    second: digital cells_346
+  - first:
+      213: 3433402579646544810
+    second: digital cells_347
+  - first:
+      213: 1559744508985668079
+    second: digital cells_348
+  - first:
+      213: -1696177552135691615
+    second: digital cells_349
+  - first:
+      213: 2091032528151984045
+    second: digital cells_350
+  - first:
+      213: 3179618335712953469
+    second: digital cells_351
+  - first:
+      213: -3454217222105996043
+    second: digital cells_352
+  - first:
+      213: 1560223065846506728
+    second: digital cells_353
+  - first:
+      213: 6892843894726861229
+    second: digital cells_354
+  - first:
+      213: -6552260021544734463
+    second: digital cells_355
+  - first:
+      213: 404661080141049354
+    second: digital cells_356
+  - first:
+      213: -672918678067333741
+    second: digital cells_357
+  - first:
+      213: -117923450159761156
+    second: digital cells_358
+  - first:
+      213: 1093878354856218935
+    second: digital cells_359
+  - first:
+      213: 7379864172736402595
+    second: digital cells_360
+  - first:
+      213: -871988954020190991
+    second: digital cells_361
+  - first:
+      213: 3322969386123896773
+    second: digital cells_362
+  - first:
+      213: -544385969090107754
+    second: digital cells_363
+  - first:
+      213: -6422498055353683565
+    second: digital cells_364
+  - first:
+      213: 8954773290812885337
+    second: digital cells_365
+  - first:
+      213: 7885744215305567316
+    second: digital cells_366
+  - first:
+      213: -3283004389146192586
+    second: digital cells_367
+  - first:
+      213: 6092640248806036611
+    second: digital cells_368
+  - first:
+      213: -5584300408331110157
+    second: digital cells_369
+  - first:
+      213: 8019218116237013658
+    second: digital cells_370
+  - first:
+      213: 6470085629640230251
+    second: digital cells_371
+  - first:
+      213: 8920430425610573219
+    second: digital cells_372
+  - first:
+      213: 2458761558541861482
+    second: digital cells_373
+  - first:
+      213: -1080399008868105796
+    second: digital cells_374
+  - first:
+      213: 3593160792080804580
+    second: digital cells_375
+  - first:
+      213: -6759426208287162672
+    second: digital cells_376
+  - first:
+      213: -6758736892291863523
+    second: digital cells_377
+  - first:
+      213: 6962326635481619725
+    second: digital cells_378
+  - first:
+      213: -2070726590466161600
+    second: digital cells_379
+  - first:
+      213: 1742061066282311264
+    second: digital cells_380
+  - first:
+      213: -6506050286237937914
+    second: digital cells_381
+  - first:
+      213: -2343026733331046005
+    second: digital cells_382
+  - first:
+      213: -5981742596225019199
+    second: digital cells_383
+  - first:
+      213: -3797087808355134384
+    second: digital cells_384
+  - first:
+      213: -8954750545219425533
+    second: digital cells_385
+  - first:
+      213: -3019654281963621383
+    second: digital cells_386
+  - first:
+      213: -8010812035449332645
+    second: digital cells_387
+  - first:
+      213: -1630338801249216135
+    second: digital cells_388
+  - first:
+      213: 2316929691455305410
+    second: digital cells_389
+  - first:
+      213: -5574442172682403366
+    second: digital cells_390
+  - first:
+      213: -5331145525283829925
+    second: digital cells_391
+  - first:
+      213: 4742530468061021283
+    second: digital cells_392
+  - first:
+      213: -4096846639523154848
+    second: digital cells_393
+  - first:
+      213: 7333265328410344136
+    second: digital cells_394
+  - first:
+      213: -6117049162734167999
+    second: digital cells_395
+  - first:
+      213: -5708188177238676174
+    second: digital cells_396
+  - first:
+      213: 3560809084554252513
+    second: digital cells_397
+  - first:
+      213: -6888254667655604852
+    second: digital cells_398
+  - first:
+      213: 2277606739030363744
+    second: digital cells_399
+  - first:
+      213: -4771042653471718427
+    second: digital cells_400
+  - first:
+      213: 74493119861283604
+    second: digital cells_401
+  - first:
+      213: -3260613880515200568
+    second: digital cells_402
+  - first:
+      213: 1067624338509162616
+    second: digital cells_403
+  - first:
+      213: 8998977452352447596
+    second: digital cells_404
+  - first:
+      213: -4810764510857010006
+    second: digital cells_405
+  - first:
+      213: 9020166851353698848
+    second: digital cells_406
+  - first:
+      213: 410969418266182970
+    second: digital cells_407
+  - first:
+      213: 2221066774260089489
+    second: digital cells_408
+  - first:
+      213: 3316759192459312102
+    second: digital cells_409
+  - first:
+      213: 6527598382644665031
+    second: digital cells_410
+  - first:
+      213: -6516811122367794740
+    second: digital cells_411
+  - first:
+      213: -2011788859150572792
+    second: digital cells_412
+  - first:
+      213: 5346885495025031368
+    second: digital cells_413
+  - first:
+      213: -3473196446251476523
+    second: digital cells_414
+  - first:
+      213: 4677166902279247779
+    second: digital cells_415
+  - first:
+      213: 6855113384997097136
+    second: digital cells_416
+  - first:
+      213: 5847226196060852548
+    second: digital cells_417
+  - first:
+      213: -1250615874598085517
+    second: digital cells_418
+  - first:
+      213: -1183810677629578001
+    second: digital cells_419
+  - first:
+      213: -8247937460801719495
+    second: digital cells_420
+  - first:
+      213: -8251391480500918948
+    second: digital cells_421
+  - first:
+      213: 4669174368999529327
+    second: digital cells_422
+  - first:
+      213: -7371185316807106902
+    second: digital cells_423
+  - first:
+      213: 5446714359625870118
+    second: digital cells_424
+  - first:
+      213: -7595772822060823682
+    second: digital cells_425
+  - first:
+      213: 8299640897035890686
+    second: digital cells_426
+  - first:
+      213: 6077148943769981352
+    second: digital cells_427
+  - first:
+      213: -2807199627048241604
+    second: digital cells_428
+  - first:
+      213: -6181851356773769911
+    second: digital cells_429
+  - first:
+      213: 2929461086208141427
+    second: digital cells_430
+  - first:
+      213: 8174671864008664190
+    second: digital cells_431
+  - first:
+      213: 5490015013466705952
+    second: digital cells_432
+  - first:
+      213: 6327247253877135368
+    second: digital cells_433
+  - first:
+      213: -3936455868718638064
+    second: digital cells_434
+  - first:
+      213: -3781462859181792693
+    second: digital cells_435
+  - first:
+      213: -3123708975388449540
+    second: digital cells_436
+  - first:
+      213: 6572892598988446814
+    second: digital cells_437
+  - first:
+      213: -2145080200718414141
+    second: digital cells_438
+  - first:
+      213: -8803930237682829981
+    second: digital cells_439
+  - first:
+      213: -8437085159309017193
+    second: digital cells_440
+  - first:
+      213: -1293318604125563507
+    second: digital cells_441
+  - first:
+      213: 2904084880997715602
+    second: digital cells_442
+  - first:
+      213: -2695443809743903930
+    second: digital cells_443
+  - first:
+      213: 7118888638188593864
+    second: digital cells_444
+  - first:
+      213: -5981694186834532472
+    second: digital cells_445
+  - first:
+      213: 565371126635636242
+    second: digital cells_446
+  - first:
+      213: 3631755658708399127
+    second: digital cells_447
+  - first:
+      213: -65518641676478837
+    second: digital cells_448
+  - first:
+      213: -5960911128478264677
+    second: digital cells_449
+  - first:
+      213: -1862247317000163598
+    second: digital cells_450
+  - first:
+      213: -7483166202939594066
+    second: digital cells_451
+  - first:
+      213: -7554824761037217481
+    second: digital cells_452
+  - first:
+      213: -3339732127765707710
+    second: digital cells_453
+  - first:
+      213: 6795713235794448629
+    second: digital cells_454
+  - first:
+      213: 1483829422146861161
+    second: digital cells_455
+  - first:
+      213: -6198104794072136966
+    second: digital cells_456
+  - first:
+      213: 4420281329966987447
+    second: digital cells_457
+  - first:
+      213: -5103093934791415020
+    second: digital cells_458
+  - first:
+      213: 8811899693344899744
+    second: digital cells_459
+  - first:
+      213: 2286502861733827343
+    second: digital cells_460
+  - first:
+      213: 3087285619693236719
+    second: digital cells_461
+  - first:
+      213: 5747684364920987805
+    second: digital cells_462
+  - first:
+      213: -3952735272542256774
+    second: digital cells_463
+  - first:
+      213: 5975174534616860214
+    second: digital cells_464
+  - first:
+      213: 9119314246463565348
+    second: digital cells_465
+  - first:
+      213: 8420593339987953266
+    second: digital cells_466
+  - first:
+      213: 4998417425821423471
+    second: digital cells_467
+  - first:
+      213: 5162533784156220771
+    second: digital cells_468
+  - first:
+      213: 3817494285797739407
+    second: digital cells_469
+  - first:
+      213: 671828183437820172
+    second: digital cells_470
+  - first:
+      213: 4918623853778081395
+    second: digital cells_471
+  - first:
+      213: 1867059561260391968
+    second: digital cells_472
+  - first:
+      213: 1402926670151705402
+    second: digital cells_473
+  - first:
+      213: -222613722320110121
+    second: digital cells_474
+  - first:
+      213: -2122222572774284556
+    second: digital cells_475
+  - first:
+      213: -1996909924692040655
+    second: digital cells_476
+  - first:
+      213: 865197470985432527
+    second: digital cells_477
+  - first:
+      213: 1699064191275723071
+    second: digital cells_478
+  - first:
+      213: 8187954238401049452
+    second: digital cells_479
+  - first:
+      213: -9189972244416262045
+    second: digital cells_480
+  - first:
+      213: -6025065423919177732
+    second: digital cells_481
+  - first:
+      213: 3718256225096550284
+    second: digital cells_482
+  - first:
+      213: 1602638521287438807
+    second: digital cells_483
+  - first:
+      213: -3793534500863488373
+    second: digital cells_484
+  - first:
+      213: 7791555062531815016
+    second: digital cells_485
+  - first:
+      213: 4436356833408265317
+    second: digital cells_486
+  - first:
+      213: -3940336061801035618
+    second: digital cells_487
+  - first:
+      213: -4528647978283400952
+    second: digital cells_488
+  - first:
+      213: 6919642309406076205
+    second: digital cells_489
+  - first:
+      213: 9106345112577540895
+    second: digital cells_490
+  - first:
+      213: -2218639009533157654
+    second: digital cells_491
+  - first:
+      213: 3416967572213432140
+    second: digital cells_492
+  - first:
+      213: -4061049025416842120
+    second: digital cells_493
+  - first:
+      213: -1605904162002185209
+    second: digital cells_494
+  - first:
+      213: 3453718955245507690
+    second: digital cells_495
+  - first:
+      213: -5264593404892563261
+    second: digital cells_496
+  - first:
+      213: -8386442061213166717
+    second: digital cells_497
+  - first:
+      213: 4780450161756442148
+    second: digital cells_498
+  - first:
+      213: 2031196415834962365
+    second: digital cells_499
+  - first:
+      213: -4429559839573662147
+    second: digital cells_500
+  - first:
+      213: -1655949154392799657
+    second: digital cells_501
+  - first:
+      213: 2409538791143378735
+    second: digital cells_502
+  - first:
+      213: 582119870832612602
+    second: digital cells_503
+  - first:
+      213: 8262811697865494133
+    second: digital cells_504
+  - first:
+      213: 8312411234539977913
+    second: digital cells_505
+  - first:
+      213: 17561380977419987
+    second: digital cells_506
+  - first:
+      213: -7130319791364738813
+    second: digital cells_507
+  - first:
+      213: 6547344799471165514
+    second: digital cells_508
+  - first:
+      213: 5079490244419141043
+    second: digital cells_509
+  - first:
+      213: -991795433994459257
+    second: digital cells_510
+  - first:
+      213: 1965529447662746367
+    second: digital cells_511
+  - first:
+      213: 8817960080477677072
+    second: digital cells_512
+  - first:
+      213: -608655419504421349
+    second: digital cells_513
+  - first:
+      213: -3478794497313651346
+    second: digital cells_514
+  - first:
+      213: 4296192723597732552
+    second: digital cells_515
+  - first:
+      213: 3331236115096223763
+    second: digital cells_516
+  - first:
+      213: 1308108935988243559
+    second: digital cells_517
+  - first:
+      213: 8480945484773960124
+    second: digital cells_518
+  - first:
+      213: -5232470540354720785
+    second: digital cells_519
+  - first:
+      213: 3852919692917948383
+    second: digital cells_520
+  - first:
+      213: -7177309837099757501
+    second: digital cells_521
+  - first:
+      213: 265097070260296073
+    second: digital cells_522
+  - first:
+      213: -7506072392442904076
+    second: digital cells_523
+  - first:
+      213: -7567052418938353703
+    second: digital cells_524
+  - first:
+      213: 3831679776796124237
+    second: digital cells_525
+  - first:
+      213: -264784314771825042
+    second: digital cells_526
+  - first:
+      213: -3196831916980375879
+    second: digital cells_527
+  - first:
+      213: -1142275086774758203
+    second: digital cells_528
+  - first:
+      213: -6697673937169863295
+    second: digital cells_529
+  - first:
+      213: -9130301855878837176
+    second: digital cells_530
+  - first:
+      213: -5718729940740961937
+    second: digital cells_531
+  - first:
+      213: -5186268256786253736
+    second: digital cells_532
+  - first:
+      213: -5635437798073905766
+    second: digital cells_533
+  - first:
+      213: 7185236202753592772
+    second: digital cells_534
+  - first:
+      213: 8414970603198502623
+    second: digital cells_535
+  - first:
+      213: 5515589425654669048
+    second: digital cells_536
+  - first:
+      213: -503151806004965965
+    second: digital cells_537
+  - first:
+      213: 8818632783855838105
+    second: digital cells_538
+  - first:
+      213: 2543103771935838745
+    second: digital cells_539
+  - first:
+      213: -291879062570553827
+    second: digital cells_540
+  - first:
+      213: 3486910171124383982
+    second: digital cells_541
+  - first:
+      213: -2603470567675444391
+    second: digital cells_542
+  - first:
+      213: -5426594969606695488
+    second: digital cells_543
+  - first:
+      213: -3423782733265794982
+    second: digital cells_544
+  - first:
+      213: 4320326180561172525
+    second: digital cells_545
+  - first:
+      213: -5262898898398205507
+    second: digital cells_546
+  - first:
+      213: -6583081129874062476
+    second: digital cells_547
+  - first:
+      213: 8290381310541878170
+    second: digital cells_548
+  - first:
+      213: 7784349069932966115
+    second: digital cells_549
+  - first:
+      213: -5358570504057025350
+    second: digital cells_550
+  - first:
+      213: 5393062393347748076
+    second: digital cells_551
+  - first:
+      213: -898770267603320568
+    second: digital cells_552
+  - first:
+      213: -8762934274211002594
+    second: digital cells_553
+  - first:
+      213: 4452321878916246059
+    second: digital cells_554
+  - first:
+      213: 4220464386586814795
+    second: digital cells_555
+  - first:
+      213: -1740619737020173539
+    second: digital cells_556
+  - first:
+      213: -1225232038280706829
+    second: digital cells_557
+  - first:
+      213: 5470555007861414234
+    second: digital cells_558
+  - first:
+      213: 6042860724246887118
+    second: digital cells_559
+  - first:
+      213: -1477719352233512742
+    second: digital cells_560
+  - first:
+      213: -7824260855729236697
+    second: digital cells_561
+  - first:
+      213: 8023685425758359363
+    second: digital cells_562
+  - first:
+      213: 7800629379064977944
+    second: digital cells_563
+  - first:
+      213: 8276884449923616688
+    second: digital cells_564
+  - first:
+      213: 7846978137336525800
+    second: digital cells_565
+  - first:
+      213: 956450773800625494
+    second: digital cells_566
+  - first:
+      213: -3934467668968720134
+    second: digital cells_567
+  - first:
+      213: -1635982953050611801
+    second: digital cells_568
+  - first:
+      213: 4616040372654645274
+    second: digital cells_569
+  - first:
+      213: 8610189642137960460
+    second: digital cells_570
+  - first:
+      213: -4835401435987694015
+    second: digital cells_571
+  - first:
+      213: -391362035083284324
+    second: digital cells_572
+  - first:
+      213: -9119241099539545876
+    second: digital cells_573
+  - first:
+      213: 7888636657443058836
+    second: digital cells_574
+  - first:
+      213: -8668785926844880167
+    second: digital cells_575
+  - first:
+      213: 8468955159798288242
+    second: digital cells_576
+  - first:
+      213: -1271356149154254983
+    second: digital cells_577
+  - first:
+      213: -3775856908843353705
+    second: digital cells_578
+  - first:
+      213: 5254147426160102672
+    second: digital cells_579
+  - first:
+      213: 7010420842710653031
+    second: digital cells_580
+  - first:
+      213: -5378426568504833620
+    second: digital cells_581
+  - first:
+      213: 4741357067273652510
+    second: digital cells_582
+  - first:
+      213: -8028340620268297308
+    second: digital cells_583
+  - first:
+      213: 4523492092906693768
+    second: digital cells_584
+  - first:
+      213: -739800540006963137
+    second: digital cells_585
+  - first:
+      213: 8134537518926459304
+    second: digital cells_586
+  - first:
+      213: 7358387312412065461
+    second: digital cells_587
+  - first:
+      213: 5052772368533714933
+    second: digital cells_588
+  - first:
+      213: 8479895772226713765
+    second: digital cells_589
+  - first:
+      213: 2858282742756479933
+    second: digital cells_590
+  - first:
+      213: 6829443188055724977
+    second: digital cells_591
+  - first:
+      213: 2964567591629552406
+    second: digital cells_592
+  - first:
+      213: -2918663714348367330
+    second: digital cells_593
+  - first:
+      213: -4885070485009742018
+    second: digital cells_594
+  - first:
+      213: 7393502565681199184
+    second: digital cells_595
+  - first:
+      213: 6933013321878326749
+    second: digital cells_596
+  - first:
+      213: 2191842091013837788
+    second: digital cells_597
+  - first:
+      213: 7610419242492409290
+    second: digital cells_598
+  - first:
+      213: -5209062192903694101
+    second: digital cells_599
+  - first:
+      213: -7202460408867972854
+    second: digital cells_600
+  - first:
+      213: -6113987480247070811
+    second: digital cells_601
+  - first:
+      213: -6686420074686775192
+    second: digital cells_602
+  - first:
+      213: -5121501409846241173
+    second: digital cells_603
+  - first:
+      213: -2149557099993078916
+    second: digital cells_604
+  - first:
+      213: 3860420624883121906
+    second: digital cells_605
+  - first:
+      213: -6030394782669968303
+    second: digital cells_606
+  - first:
+      213: -1239639723308491004
+    second: digital cells_607
+  - first:
+      213: -3255128441851680551
+    second: digital cells_608
+  - first:
+      213: 6122731534709440406
+    second: digital cells_609
+  - first:
+      213: -3719494541257831649
+    second: digital cells_610
+  - first:
+      213: -1406022351787004477
+    second: digital cells_611
+  - first:
+      213: 2355621691043935316
+    second: digital cells_612
+  - first:
+      213: 3865403256648259703
+    second: digital cells_613
+  - first:
+      213: -5376846494304601363
+    second: digital cells_614
+  - first:
+      213: 2295284245813470020
+    second: digital cells_615
+  - first:
+      213: -637952364509274050
+    second: digital cells_616
+  - first:
+      213: -243104077311223519
+    second: digital cells_617
+  - first:
+      213: 3884519559198516547
+    second: digital cells_618
+  - first:
+      213: -2525419668615102026
+    second: digital cells_619
+  - first:
+      213: 3288943330863542768
+    second: digital cells_620
+  - first:
+      213: 8852227830362836817
+    second: digital cells_621
+  - first:
+      213: -1913454010814789506
+    second: digital cells_622
+  - first:
+      213: -6133375122608438296
+    second: digital cells_623
+  - first:
+      213: 5634769263173356074
+    second: digital cells_624
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: digital cells_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75c51788c6eeaf50800000000000000
+      internalID: 6894701828485006715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfeaa04e59bd4ca40800000000000000
+      internalID: 5387672491064471292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbf1bec7f4369a80800000000000000
+      internalID: -8460516611039560719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b1cacf6c0e06410800000000000000
+      internalID: 1468420623770065791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e81a735a74626c0800000000000000
+      internalID: -4168565630156304796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b1b292a371e3c20800000000000000
+      internalID: 3188011124791122832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed345070c443910f0800000000000000
+      internalID: -1145827129049136162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023669e157c376d10800000000000000
+      internalID: 2118728623423120160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0f808cb3cbe6ef0800000000000000
+      internalID: -112945975692562195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_9
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7166645d6461a1b30800000000000000
+      internalID: 4258740891113907735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78c33f02d9730b20800000000000000
+      internalID: 3099454911666178171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d462ce7e3f2c63d0800000000000000
+      internalID: -3212140488760859436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5292711771cd8b270800000000000000
+      internalID: 8266599109278247205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a99bf120ff317d00800000000000000
+      internalID: 968625695456205221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b880af2b96a213c0800000000000000
+      internalID: -4390263501283620685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4237de39e8bac9160800000000000000
+      internalID: 7033685346901390116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_16
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5c95cfbdf297d20800000000000000
+      internalID: 3276702825766831573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66858ef36ea97a9d0800000000000000
+      internalID: -2763069532663162778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888bb2a0bdcf9de90800000000000000
+      internalID: -7000286128072050552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_19
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af64ffda04cfe070800000000000000
+      internalID: 8137938602667831205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5200c7053d706db30800000000000000
+      internalID: 4311642297423626277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e84b1dfe25d8d60800000000000000
+      internalID: 7894056911819279975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2002145f0b6af10800000000000000
+      internalID: 2280704828715827944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_23
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a3e0b1c9989ccd0800000000000000
+      internalID: -2537345611484743134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194958a0891990450800000000000000
+      internalID: 6055531256173925521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf4e467649d8a580800000000000000
+      internalID: -8815557373921964106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_26
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed395b156a58b2800800000000000000
+      internalID: 588711125683901406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_27
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4224af883266b14d0800000000000000
+      internalID: -3162822010489650652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d72ef12aae447780800000000000000
+      internalID: -8686231288669132843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_29
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed633ab71d38ca10800000000000000
+      internalID: 1929859612445732322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6707d99c40bdf8900800000000000000
+      internalID: 689010081619865718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1791d767c46ed50800000000000000
+      internalID: 6766179561959420349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742561a12a66ddcc0800000000000000
+      internalID: -3684676073710792121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d7755cf6c47ffb0800000000000000
+      internalID: -4614135250281857755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82eec41cccdbe480800000000000000
+      internalID: -8868752272095518065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_35
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66460e8a359829b00800000000000000
+      internalID: 833879873425532006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_36
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f68dc7eb08fac50800000000000000
+      internalID: 6678698328040435465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_37
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa3f30ac610c5b80800000000000000
+      internalID: -8404841238523593990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78907b85a3d6b3b40800000000000000
+      internalID: 5421046673834445191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_39
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083372553900706e0800000000000000
+      internalID: -1871526487360326784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7201cdbff67837640800000000000000
+      internalID: 5076550120013303847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0032de29063f88f00800000000000000
+      internalID: 1119412103508992768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d573240e93367f110800000000000000
+      internalID: 1294612518119028573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b401e069dc0915070800000000000000
+      internalID: 8093409218021691467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988d1c8ca08cd1170800000000000000
+      internalID: 8150890849253841033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_45
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6211bb56a5df09f70800000000000000
+      internalID: 9192125404158824742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_46
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaeb1c1d72bf44f0800000000000000
+      internalID: -842258354882745629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_47
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74993fe9da0022470800000000000000
+      internalID: 8368251803303909703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e663259ddd6390f70800000000000000
+      internalID: 9153908044068959854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: digital cells_49
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab0c97d2b6de5b90800000000000000
+      internalID: -7251122286410069082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
