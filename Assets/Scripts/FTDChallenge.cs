@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using RTLTMPro;
 
 public class FTDChallenge : Challenge
 {
     AudioSource audio;
 
     private int progress;
+
+    [SerializeField] RTLTextMeshPro RemaningText;
 
     [Header("Duration of the challenge")]
     public int minutes;
@@ -48,10 +51,18 @@ public class FTDChallenge : Challenge
             difference.OnChecked.AddListener(OnDifferenceFound);
             difference.OnCheckedFinished.AddListener(IncreaseProgress);
         }
+
+        int remaning = _leftSideDifferences.Count - progress;
+
+        RemaningText.text = remaning.ToString() + " اختلافات متبقية";
     }
 
     private void OnEnable()
     {
+        int remaning = _leftSideDifferences.Count - progress;
+
+        RemaningText.text = remaning.ToString() + " اختلافات متبقية";
+
         Invoke("StartTimer", Time.deltaTime);
     }
 
@@ -74,6 +85,10 @@ public class FTDChallenge : Challenge
     public void IncreaseProgress()
     {
         progress++;
+
+        int remaning = _leftSideDifferences.Count - progress;
+
+        RemaningText.text = remaning.ToString() + " اختلافات متبقية";
 
         if(progress >= _leftSideDifferences.Count)
         {
