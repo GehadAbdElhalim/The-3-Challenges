@@ -12,6 +12,9 @@ public class FTDChallenge : Challenge
 
     [SerializeField] RTLTextMeshPro RemaningText;
 
+    [SerializeField] CanvasGroup image1;
+    [SerializeField] CanvasGroup image2;
+
     [Header("Duration of the challenge")]
     public int minutes;
     public int seconds;
@@ -62,6 +65,9 @@ public class FTDChallenge : Challenge
         int remaning = _leftSideDifferences.Count - progress;
 
         RemaningText.text = remaning.ToString() + " اختلافات متبقية";
+
+        image1.alpha = 1;
+        image2.alpha = 0;
 
         Invoke("StartTimer", Time.deltaTime);
     }
@@ -121,5 +127,19 @@ public class FTDChallenge : Challenge
     public List<DifferenceBehaviour> GetRightSideDifferences()
     {
         return _rightSideDifferences;
+    }
+
+    public void SwitchImages()
+    {
+        if(image1.alpha == 0)
+        {
+            image1.alpha = 1;
+            image2.alpha = 0;
+        }
+        else
+        {
+            image1.alpha = 0;
+            image2.alpha = 1;
+        }
     }
 }
