@@ -7,10 +7,15 @@ public class PuzzleChallenge : Challenge
 {
     AudioSource audio;
 
+    public GameObject FullImage;
+
     public GameObject Father;
     public GameObject Son;
 
-    public GameObject blockInput;
+    public GameObject FatherTxt;
+    public GameObject SonTxt;
+
+    //public GameObject blockInput;
     
     private PuzzleItem[] FatherPuzzleItems;
     private PuzzleItem[] SonPuzzleItems;
@@ -86,8 +91,8 @@ public class PuzzleChallenge : Challenge
             }
         }
 
-        blockInput.SetActive(true);
-        Invoke("SwitchTurn", 1f);
+        //blockInput.SetActive(true);
+        SwitchTurn();
     }
 
     void OnPieceDroppedOutside(int index)
@@ -139,9 +144,10 @@ public class PuzzleChallenge : Challenge
         RandomizePuzzleItems(FatherPuzzleItems);
         RandomizePuzzleItems(SonPuzzleItems);
 
-        Father.SetActive(true);
-        Son.SetActive(false);
-        blockInput.SetActive(false);
+        FatherTxt.SetActive(true);
+        SonTxt.SetActive(false);
+        FullImage.SetActive(false);
+        //blockInput.SetActive(false);
 
         Invoke("StartTimer", Time.deltaTime);
     }
@@ -156,10 +162,10 @@ public class PuzzleChallenge : Challenge
 
     public void SwitchTurn()
     {
-        Father.SetActive(!Father.activeSelf);
-        Son.SetActive(!Son.activeSelf);
+        FatherTxt.SetActive(!FatherTxt.activeSelf);
+        SonTxt.SetActive(!SonTxt.activeSelf);
 
-        blockInput.SetActive(false);
+        //blockInput.SetActive(false);
     }
 
     public override void ResetProgress()
@@ -177,5 +183,17 @@ public class PuzzleChallenge : Challenge
         CorrectPuzzlePieces = new bool[50];
 
         TimerController.Instance.StartTimer(seconds, minutes, null, null);
+    }
+
+    public void ToggleFullImage()
+    {
+        FullImage.SetActive(!FullImage.activeSelf);
+        //blockInput.SetActive(FullImage.activeSelf);
+    }
+
+    [ContextMenu("Finish Challenge")]
+    void FinishChallenge()
+    {
+        OnChallengeFinished.Invoke();
     }
 }

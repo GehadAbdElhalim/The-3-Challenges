@@ -41,7 +41,8 @@ public class PuzzleItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDr
 
     public void OnDrag(PointerEventData eventData)
     {
-        rectTransform.anchoredPosition += eventData.delta / CanvasSingleton.instance.GetComponent<Canvas>().scaleFactor;
+        //rectTransform.anchoredPosition += eventData.delta / CanvasSingleton.instance.GetComponent<Canvas>().scaleFactor;
+        this.transform.position = eventData.position;
     }
 
     public void OnEndDrag(PointerEventData eventData)
