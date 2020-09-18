@@ -14,11 +14,11 @@ public class AudioController : MonoBehaviour
 
     public void Mute()
     {
-        GetComponent<AudioListener>().enabled = false;
+        AudioListener.volume = 0;
     }
 
     public void Unmute()
     {
-        GetComponent<AudioListener>().enabled = true;
+        AudioListener.volume = 1;
     }
 }
