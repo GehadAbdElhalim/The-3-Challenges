@@ -10,6 +10,7 @@ public class FTDChallenge : Challenge
 
     private int progress;
 
+    [Header("Specific parameters for this challenge")]
     [SerializeField] RTLTextMeshPro RemaningText;
 
     [SerializeField] CanvasGroup image1;
@@ -22,6 +23,7 @@ public class FTDChallenge : Challenge
     List<DifferenceBehaviour> _leftSideDifferences = new List<DifferenceBehaviour>();
     List<DifferenceBehaviour> _rightSideDifferences = new List<DifferenceBehaviour>();
 
+    [Header("SFX")]
     public AudioClip correct_sfx;
 
     private void Start()
@@ -98,7 +100,7 @@ public class FTDChallenge : Challenge
 
         if(progress >= _leftSideDifferences.Count)
         {
-            OnChallengeFinished.Invoke();
+            FinishChallengeWithDelay();
         }
     }
 

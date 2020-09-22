@@ -7,6 +7,7 @@ public class PuzzleChallenge : Challenge
 {
     AudioSource audio;
 
+    [Header("Specific parameters for this challenge")]
     public GameObject FullImage;
 
     public GameObject Father;
@@ -44,7 +45,7 @@ public class PuzzleChallenge : Challenge
 
     private void Start()
     {
-        audio = GetComponent<AudioSource>();
+        audio = transform.parent.GetComponent<AudioSource>();
 
         foreach (EmptyCell ec in FatherEmptyCells)
         {
@@ -86,7 +87,7 @@ public class PuzzleChallenge : Challenge
 
             if (CheckIFPuzzleIsComplete())
             {
-                OnChallengeFinished.Invoke();
+                FinishChallengeWithDelay();
                 return;
             }
         }
@@ -194,6 +195,6 @@ public class PuzzleChallenge : Challenge
     [ContextMenu("Finish Challenge")]
     void FinishChallenge()
     {
-        OnChallengeFinished.Invoke();
+        FinishChallengeWithDelay();
     }
 }

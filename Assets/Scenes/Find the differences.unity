@@ -2311,9 +2311,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954282d34fb0c3a469fd64365855b2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnChallengeAboutToFinish:
+    m_PersistentCalls:
+      m_Calls: []
   OnChallengeFinished:
     m_PersistentCalls:
       m_Calls: []
+  timeBeforeChallengeIsFinished: 0
   RemaningText: {fileID: 1651081141}
   image1: {fileID: 0}
   image2: {fileID: 0}
@@ -4807,9 +4811,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954282d34fb0c3a469fd64365855b2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnChallengeAboutToFinish:
+    m_PersistentCalls:
+      m_Calls: []
   OnChallengeFinished:
     m_PersistentCalls:
       m_Calls: []
+  timeBeforeChallengeIsFinished: 0
   RemaningText: {fileID: 754927853}
   image1: {fileID: 0}
   image2: {fileID: 0}
@@ -8710,7 +8718,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -31.999878, y: 15.999878}
+  m_AnchoredPosition: {x: -31.999756, y: 15.999878}
   m_SizeDelta: {x: 1024, y: 332}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1076426532
@@ -10422,9 +10430,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954282d34fb0c3a469fd64365855b2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnChallengeAboutToFinish:
+    m_PersistentCalls:
+      m_Calls: []
   OnChallengeFinished:
     m_PersistentCalls:
       m_Calls: []
+  timeBeforeChallengeIsFinished: 0
   RemaningText: {fileID: 1475597914}
   image1: {fileID: 0}
   image2: {fileID: 0}
@@ -11677,9 +11689,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954282d34fb0c3a469fd64365855b2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnChallengeAboutToFinish:
+    m_PersistentCalls:
+      m_Calls: []
   OnChallengeFinished:
     m_PersistentCalls:
       m_Calls: []
+  timeBeforeChallengeIsFinished: 0
   RemaningText: {fileID: 560301206}
   image1: {fileID: 464740230}
   image2: {fileID: 1024654158}
@@ -15126,9 +15142,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954282d34fb0c3a469fd64365855b2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnChallengeAboutToFinish:
+    m_PersistentCalls:
+      m_Calls: []
   OnChallengeFinished:
     m_PersistentCalls:
       m_Calls: []
+  timeBeforeChallengeIsFinished: 0
   RemaningText: {fileID: 176421618}
   image1: {fileID: 253898925}
   image2: {fileID: 934050441}
@@ -15496,9 +15516,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954282d34fb0c3a469fd64365855b2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnChallengeAboutToFinish:
+    m_PersistentCalls:
+      m_Calls: []
   OnChallengeFinished:
     m_PersistentCalls:
       m_Calls: []
+  timeBeforeChallengeIsFinished: 0
   RemaningText: {fileID: 1681479423}
   image1: {fileID: 1867076491}
   image2: {fileID: 1867076491}

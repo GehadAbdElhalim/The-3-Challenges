@@ -9,6 +9,7 @@ public class FHIChallenge : Challenge
 {
     AudioSource audio;
 
+    [Header("Specific parameters for this challenge")]
     public List<ItemBehaviour> items;
     public List<GameObject> texts;
 
@@ -24,6 +25,7 @@ public class FHIChallenge : Challenge
     ItemBehaviour currentItem;
     GameObject currentText;
 
+    [Header("SFX")]
     public AudioClip correct_sfx;
 
     void Start()
