@@ -75,6 +75,7 @@ public class FHIChallenge : Challenge
     public override void ResetProgress()
     {
         DisableAllTexts();
+        ChooseRandomObject();
         TimerController.Instance.StartTimer(seconds, minutes, null, null);
     }
 
