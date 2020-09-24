@@ -10,6 +10,7 @@ public class PuzzleChallenge : Challenge
     [Header("Specific parameters for this challenge")]
     public GameObject FullImage;
 
+    public GameObject EmptyCellsParent;
     public GameObject Father;
     public GameObject Son;
 
@@ -39,8 +40,8 @@ public class PuzzleChallenge : Challenge
         FatherPuzzleItems = Father.GetComponentsInChildren<PuzzleItem>();
         SonPuzzleItems = Son.GetComponentsInChildren<PuzzleItem>();
 
-        FatherEmptyCells = Father.GetComponentsInChildren<EmptyCell>();
-        SonEmptyCells = Son.GetComponentsInChildren<EmptyCell>();
+        FatherEmptyCells = EmptyCellsParent.transform.GetChild(0).GetComponentsInChildren<EmptyCell>();
+        SonEmptyCells = EmptyCellsParent.transform.GetChild(1).GetComponentsInChildren<EmptyCell>();
     }
 
     private void Start()

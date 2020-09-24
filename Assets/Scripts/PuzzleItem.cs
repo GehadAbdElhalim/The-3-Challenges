@@ -24,12 +24,12 @@ public class PuzzleItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDr
 
     public void SetOriginalPosition()
     {
-        originalPos = transform.position;
+        originalPos = transform.localPosition;
     }
 
     public void ResetToOriginalPosition()
     {
-        transform.position = originalPos;
+        transform.localPosition = originalPos;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -50,7 +50,7 @@ public class PuzzleItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDr
         if(eventData.pointerCurrentRaycast.gameObject.GetComponent<EmptyCell>() == null)
         {
             OnPieceThrown.Invoke(Index);
-            transform.position = originalPos;
+            ResetToOriginalPosition();
         }
 
         canvasGroup.alpha = 1f;
