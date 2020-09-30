@@ -2618,6 +2618,7 @@ MonoBehaviour:
   - {fileID: 1764893008}
   - {fileID: 1576826910}
   - {fileID: 598867301}
+  numberOfHiddenItems: 6
   minutes: 1
   seconds: 0
   duration: 2
@@ -5791,6 +5792,7 @@ MonoBehaviour:
   - {fileID: 14918153}
   - {fileID: 640155497}
   - {fileID: 946833179}
+  numberOfHiddenItems: 6
   minutes: 1
   seconds: 0
   duration: 2
@@ -9234,7 +9236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1282232979
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9328,6 +9330,7 @@ MonoBehaviour:
   - {fileID: 1246340707}
   - {fileID: 1938923839}
   - {fileID: 1167206101}
+  numberOfHiddenItems: 8
   minutes: 1
   seconds: 0
   duration: 2
