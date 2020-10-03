@@ -69,7 +69,7 @@ public class FTDChallenge : Challenge
         RemaningText.text = remaning.ToString() + " اختلافات متبقية";
 
         image1.alpha = 1;
-        image2.alpha = 0;
+        image2.alpha = 1; //change this for the other version of find the differences
 
         Invoke("StartTimer", Time.deltaTime);
     }
