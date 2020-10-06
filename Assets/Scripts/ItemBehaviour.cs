@@ -27,6 +27,8 @@ public class ItemBehaviour : MonoBehaviour, IPointerClickHandler
 
     public IEnumerator Flash(float duration, float frequency, Color color, UnityAction callback)
     {
+        ParticleSystemController.instance.PlayParticlesAt(transform);
+
         float totalDuration = duration;
 
         while(duration > 0)

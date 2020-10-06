@@ -5,9 +5,14 @@ using UnityEngine;
 [RequireComponent(typeof(ParticleSystem))]
 public class ParticleSystemController : MonoBehaviour
 {
+    public static ParticleSystemController instance;
     ParticleSystem particles;
 
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
         particles = GetComponent<ParticleSystem>();
