@@ -20,13 +20,13 @@ public class ItemBehaviour : MonoBehaviour, IPointerClickHandler
             return;
         }
 
-        alreadyClicked = true;
-
         onItemClicked.Invoke(this);
     }
 
     public IEnumerator Flash(float duration, float frequency, Color color, UnityAction callback)
     {
+        alreadyClicked = true;
+
         ParticleSystemController.instance.PlayParticlesAt(transform);
 
         float totalDuration = duration;
@@ -47,6 +47,11 @@ public class ItemBehaviour : MonoBehaviour, IPointerClickHandler
     {
         img = GetComponent<Image>();
 
+        alreadyClicked = false;
+    }
+
+    public void ResetProgress()
+    {
         alreadyClicked = false;
     }
 }

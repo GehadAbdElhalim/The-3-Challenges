@@ -102,6 +102,12 @@ public class FHIChallenge : Challenge
         isFirstTimeDone = false;
         indexOfIndicesOfChosenItems = 0;
         DisableAllTexts();
+
+        foreach(var item in items)
+        {
+            item.ResetProgress();
+        }
+
         ChooseRandomObject();
         TimerController.Instance.StartTimer(seconds, minutes, null, null);
     }
