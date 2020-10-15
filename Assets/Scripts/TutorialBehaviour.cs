@@ -51,6 +51,7 @@ public class TutorialBehaviour : MonoBehaviour
         if(index >= Slides.Length)
         {
             gameObject.SetActive(false);
+            return;
         }
 
         DisableAllSlides();
