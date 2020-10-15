@@ -127,13 +127,17 @@ public class TimerController : MonoBehaviour
                 if (timerMins > 0)
                 {
                     timerMins--;
-                    timerSeconds = 59f;
+                    timerSeconds = 59f + timerSeconds;
                 }
                 else if (timerHours > 0)
                 {
                     timerHours--;
                     timerMins = 59f;
-                    timerSeconds = 59f;
+                    timerSeconds = 59f + timerSeconds;
+                }
+                else
+                {
+                    timerSeconds = 0f;
                 }
             }
 
